@@ -93,8 +93,17 @@ header{
 .b_recherche{
     width: 100px;
     height: 100%;
-    text-align: center ;
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
     background-color: #0065FC;
     border-radius: 0 15px 15px 0;
+}
+.b_recherche a{
+    text-decoration: none;
+    color: white;
+}
+.b_recherche a:hover{
+    color: black;
 }
