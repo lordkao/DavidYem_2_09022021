@@ -1,0 +1,49 @@
+.bloc_page{
+    width: 100%;
+}
+header{
+    width: 100%;
+    border: 1px blue solid;
+}
+.top_header{/*logo et nav bloc 1*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_reservia{
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+.top_nav ul{
+    display: flex;
+    list-style-type: none;
+}
+.top_nav li{
+    text-align: center;
+    width: 150px;
+}
+.top_nav a{
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.h{
+    color:#0065FC ;
+}
+.h:hover{
+    text-decoration: overline;
+}
+.a{
+    color: black;
+}
+.a:hover{
+    text-decoration: overline;
+}      
+.i{
+    color:#0065FC ;
+    font-weight: bold;
+}
+.i:hover{
+    text-decoration: overline;
+}/*fin du bloc 1*/
+
