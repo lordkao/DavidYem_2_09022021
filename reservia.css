@@ -57,5 +57,53 @@ header{
 .annonce h1{
     font-size: 1.7em;
     margin-bottom: 0px;
-}/*fin du bloc 2*:
-
+}/*fin du bloc 2*/
+.barre_de_recherche{/*bloc 3 barre de recherche*/
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.barre_de_recherche label{
+    height: 100%;
+    width: 50px;
+}
+.logo_pos{
+    width: 50px;
+    height: 100%;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 15px 0 0 15px;
+}
+.formulaire{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulaire input{
+    height: 50px;
+    width: 200px;
+    border: 1px #f2f2f2 solid;
+}
+.b_recherche{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    background-color: #0065FC;
+    border-radius: 0 15px 15px 0;
+}
+.b_recherche a{
+    text-decoration: none;
+    color: white;
+}
+.b_recherche a:hover{
+    color: black;
+}/*fin du bloc 3*/
