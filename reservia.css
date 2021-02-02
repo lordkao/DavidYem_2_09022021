@@ -47,7 +47,7 @@ header{
 .i:hover{
     text-decoration: overline;
 }/*fin du bloc 1*/
-.annonce{/*bloc 2*/
+.annonce{/*bloc 2 annonce*/
     width: 100%;
 }
 .annonce p{
@@ -89,6 +89,12 @@ header{
     height: 50px;
     width: 200px;
     border: 1px #f2f2f2 solid;
+}
+.formulaire input::placeholder{
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-left: 10px;
 }
 .b_recherche{
     width: 100px;
@@ -143,7 +149,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 23px 23px 23px 23px;
+    border-radius: 25px 25px 25px 25px;
     background-color: #DEEBFF;
     position: relative;
     right:5px;
@@ -168,3 +174,26 @@ header{
     margin-left: 20px;
     border-radius: 25px 25px 25px 25px;
 }/*fin du bloc 4*/
+.info{/*bloc 5 info*/
+    height: 40px;
+    margin-top: 10px;
+}
+.info i{
+    width: 30px;
+    height: 30px;
+    color:#0065FC ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px #f2f2f2 solid;
+    border-radius: 25px 25px 25px 25px;
+    margin-right: 20px;
+}
+.info p{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}/*fin  du bloc 5*/
