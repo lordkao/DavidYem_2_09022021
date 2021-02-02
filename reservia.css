@@ -1,8 +1,9 @@
 .bloc_page{
-    width: 100%;
+    width: 100%;   
 }
 header{
-    width: 100%;
+    width: 99%;
+    padding-left: 1%;
     border: 1px blue solid;
 }
 .top_header{/*logo et nav bloc 1*/
@@ -11,8 +12,8 @@ header{
     align-items: center;
 }
 .logo_reservia{
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 90px;
     display: flex;
 }
 .top_nav ul{
@@ -46,4 +47,15 @@ header{
 .i:hover{
     text-decoration: overline;
 }/*fin du bloc 1*/
+.annonce{/*bloc 2*/
+    width: 100%;
+}
+.annonce p{
+    font-size: 1.1em;
+    margin-top: 0px;
+}
+.annonce h1{
+    font-size: 1.7em;
+    margin-bottom: 0px;
+}/*fin du bloc 2*:
 
