@@ -32,8 +32,22 @@
                         <p>En plein centre ville ou en pleine nature</p>
                     </div>
 
-                    <div><!--barre de recherche-->
+                    <div class="barre_de_recherche"><!--barre de recherche-->
+                        <label for="recherche"><div class="logo_pos"><!--logo de position-->
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div></label>
 
+                        <div class="formulaire"><!--formulaire de recherche-->
+                            <form method="get" action="traitement.php">
+                                <input type="search" name="recherche" id="recherche" placeholder="Marseille,France"/>
+                            </form>
+                        </div>
+
+                        <div class="b_recherche"><!--bouton de recherche-->
+                            <p>
+                                Rechercher
+                            </p>
+                        </div>
                     </div>
 
                     <div><!--filtres-->
