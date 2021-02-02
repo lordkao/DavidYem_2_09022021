@@ -4,7 +4,7 @@
 header{
     width: 99%;
     padding-left: 1%;
-    border: 1px blue solid;
+    
 }
 .top_header{/*logo et nav bloc 1*/
     display: flex;
@@ -107,3 +107,64 @@ header{
 .b_recherche a:hover{
     color: black;
 }/*fin du bloc 3*/
+
+.filtres{/*bloc 4 les filtres*/
+    width: 99%;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+.fi{
+    width: 80px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.critères{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center; 
+    padding-left: 20px;
+}
+.critères a{
+    text-decoration: none;
+    color: black;
+}
+.critères a:hover{
+    font-size: 1.2em;
+}
+#circle{
+    height: 46px;
+    width: 46px;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 23px 23px 23px 23px;
+    background-color: #DEEBFF;
+    position: relative;
+    right:5px;
+
+    ;   
+}
+#circle i{
+    color:#0065FC;
+}
+#crit p{
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+#f{/*contour global de chaques critères*/
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 3px #f2f2f2 solid;
+    margin-left: 20px;
+    border-radius: 25px 25px 25px 25px;
+}/*fin du bloc 4*/
