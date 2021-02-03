@@ -198,17 +198,17 @@ header{
     margin-top: 0px;
     margin-bottom: 0px;
 }/*fin  du bloc 5*/
-.top_s{
+.top_s{/*section*/
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 99%;
     margin-left: 1%;
+    margin-top: 20px;
 }
-.heb{
+.heb{/*partie hébergements*/
     width: 70%;
-    height: 700px;
-    border: 2px black solid;
+    height: 750px;
     background-color: #f2f2f2;
     border-radius: 25px 25px 25px 25px;
 }
@@ -217,16 +217,17 @@ header{
     align-items: center;
     padding-left: 50px;
     height: 10%;
-    font-size: 2em;
-    border: 2px green solid;
+    font-size: 1.6em;
 }
-.sleep{
+.t_heb h1{
+    margin-top: 60px;
+}
+.sleep{/*lieu d'hébergements*/
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     height: 80%;
-    border: 1px red solid;
 }
 .cadre_p1{
     width: 27%;
@@ -237,23 +238,14 @@ header{
     border-radius: 25px 25px 25px 25px;
     border: 5px white solid;
 }
+.photo_p1{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
 .photo_p1 img{
 width: 100%;
 height: 120%;
-}
-.plus{
-    display: flex;
-    align-items: center;
-    height: 9%;
-    padding-left: 50px;
-    border: 1px rgb(38, 0, 255) solid;
-}
-.populaires{
-    width: 27%;
-    height: 700px;
-    border: 1px rgb(17, 17, 17) solid;
-    background-color: #f2f2f2;
-    border-radius: 25px 25px 25px 25px;
 }
 .note_p1{
     height: 40%;
@@ -266,13 +258,42 @@ height: 120%;
     color: #f2f2f2;
     margin-top: 5px;
 }
+#b_star{
+    color: #0065FC;
+}
 .note_p1 h2{
  margin-top: 0px;
  margin-bottom: 5px;
  
 }
-.photo_p1{
-    height: 60%;
-    width: 100%;
-    overflow: hidden;
+.ec{
+    font-style: oblique 45deg;
+    font-weight: bold;
+}
+.€{
+    font-weight: bold;
+}
+.high{
+    font-style: oblique 45deg;
+}
+
+.plus{
+    display: flex;
+    align-items: center;
+    height: 9%;
+    padding-left: 50px;
+}
+.plus a{
+    text-decoration: none;
+    color: black;
+}
+.plus a:hover{
+    text-decoration: underline;
+}
+.populaires{
+    width: 27%;
+    height: 750px;
+    border: 1px rgb(17, 17, 17) solid;
+    background-color: #f2f2f2;
+    border-radius: 25px 25px 25px 25px;
 }
