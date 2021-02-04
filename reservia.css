@@ -388,6 +388,7 @@ height: 100%;
     justify-content: space-between;
     align-items: center;
     border-radius: 25px 25px 25px 25px;
+    border: 2px red solid;
     overflow: hidden;
 }
 .g_p{
@@ -402,7 +403,12 @@ height: 100%;
 .cp_a{
     width: 100%;
     height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     border-radius: 25px 25px 25px 25px;
+    border: 2px red solid;
     overflow: hidden;
 }
 .p_p{
@@ -425,13 +431,18 @@ height: 100%;
 }
 .cp_fort{
     width: 100%;
-    height: 320px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px red solid;
     border-radius: 25px 25px 25px 25px;
     overflow: hidden;
 }
 .p_fort{
     width: 100%;
-    height: 260px;
+    height: 240px;
     overflow: hidden;
 }
 .p_fort img{
@@ -440,7 +451,7 @@ height: 100%;
 }
 .p_frioul{
     width: 100%;
-    height: 130px;
+    height: 140px;
     overflow: hidden;
 }
 .p_frioul img{
@@ -449,7 +460,11 @@ height: 100%;
 }
 .cp_frioul{
     width: 100%;
-    height: 170px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     border-radius: 25px 25px 25px 25px;
     overflow: hidden;
-}
+}/*fin du bloc section activités*/
