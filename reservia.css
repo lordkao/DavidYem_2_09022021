@@ -10,12 +10,12 @@ body{
 header{
     width: 98%;
     padding-left: 2%;
-    
 }
 .top_header{/*logo et nav bloc 1*/
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 0px;
 }
 .logo_reservia{
     width: 200px;
@@ -24,34 +24,57 @@ header{
 }
 .top_nav ul{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    margin-top: 0px;
     list-style-type: none;
 }
 .top_nav li{
-    text-align: center;
     width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .top_nav a{
     font-size: 1.2em;
     text-decoration: none;
 }
 .h{
+    height: 100%;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color:#0065FC ;
 }
 .h:hover{
-    text-decoration: overline;
+    border-top: 2px#0065FC solid;
 }
 .a{
+    height: 100%;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: black;
 }
 .a:hover{
-    text-decoration: overline;
+    border-top: 2px black solid;
+
 }      
 .i{
+    height: 100%;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color:#0065FC ;
     font-weight: bold;
 }
 .i:hover{
-    text-decoration: overline;
+    border-top: 2px#0065FC solid;
 }/*fin du bloc 1*/
 .annonce{/*bloc 2 annonce*/
     width: 100%;
