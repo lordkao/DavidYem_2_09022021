@@ -133,6 +133,7 @@ header{
     height: 50px;
     display: flex;
     align-items: center;
+    margin-left: 15px;
 }
 .critères{
     width: 90%;
@@ -178,7 +179,7 @@ header{
     justify-content: start;
     align-items: center;
     border: 3px #f2f2f2 solid;
-    margin-left: 20px;
+    margin-left: 30px;
     border-radius: 25px 25px 25px 25px;
 }/*fin du bloc 4*/
 .info{/*bloc 5 info*/
@@ -200,7 +201,7 @@ header{
     height: 100%;
     display: flex;
     align-items: center;
-    font-size: 1.1em;
+    font-size: 1.3em;
     margin-top: 0px;
     margin-bottom: 0px;
 }/*fin  du bloc 5*/
