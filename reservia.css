@@ -4,6 +4,8 @@
 body{
     width: 100%;
     margin-left: 0px;
+    margin-bottom: 0px;
+    font-family:"Raleway thin","Raleway Black",Arial,"Arial Black","Comic Sans MS","Courier New","Georgia","Impact","Times New Roman","Trebuchet MS","Verdana";
 }
 header{
     width: 98%;
@@ -59,7 +61,7 @@ header{
     margin-top: 0px;
 }
 .annonce h1{
-    font-size: 1.7em;
+    font-size: 2em;
     margin-bottom: 0px;
 }/*fin du bloc 2*/
 .barre_de_recherche{/*bloc 3 barre de recherche*/
@@ -275,7 +277,6 @@ height: 100%;
  
 }
 .ec{
-    font-style: oblique 45deg;
     font-weight: bold;
 }
 .€{
@@ -283,7 +284,6 @@ height: 100%;
     font-size: 1.2em;
 }
 .high{
-    font-style: oblique 45deg;
 }
 
 .plus{
