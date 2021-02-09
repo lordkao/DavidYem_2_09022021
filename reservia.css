@@ -307,8 +307,35 @@ header{
     overflow: hidden;
 }
 .photo_p1 img{
-width: 100%;
-height: 100%;
+    width: 120%;
+    height: 120%;
+    position: relative;
+    right: 20px;
+    bottom: 10px;
+}
+.amina{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+.amina img{
+    width: 100%;
+    height: 230%;
+    position: relative;
+    right: 0px;
+    bottom:90px;
+}
+.mer{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+.mer img{
+    width: 150%;
+    height: 170%;
+    position: relative;
+    right: 100px;
+    bottom: 50px;
 }
 .note_p1{
     height: 40%;
@@ -407,13 +434,27 @@ height: 100%;
 }
 .photo_aside img{
     height: 100%;
-    width: 100%;
+    width: 160%;
+    position: relative;
+    right: 45px;
 }
 .note_p2{
     height: 100%;
     width: 60%;
     background-color: white;
     padding-left: 15px;
+}
+.amina2{
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+.amina2 img{
+    height: 130%;
+    width: 120%;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
 }
 .note_p2 i{
     font-size: 1.1em;
@@ -470,8 +511,10 @@ height: 100%;
     overflow: hidden;
 }
 .g_p img{
-    width: 100%;
+    width: 220%;
     height: 540px;
+    position: relative;
+    right: 220px;
 }
 .cp_a{
     width: 100%;
@@ -491,7 +534,7 @@ height: 100%;
 }
 .p_p img{
     width: 100%;
-    height: 100%;
+    height: 140%;
 }
 .t_a{
     width: 100%;
@@ -520,7 +563,9 @@ height: 100%;
 }
 .p_fort img{
     width: 100%;
-    height: 100%;
+    height: 200%;
+    position: relative;
+    bottom: 70px;
 }
 .p_frioul{
     width: 100%;
@@ -529,7 +574,7 @@ height: 100%;
 }
 .p_frioul img{
     width: 100%;
-    height: 100%;
+    height: 150%;
 }
 .cp_frioul{
     width: 100%;
