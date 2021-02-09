@@ -1,0 +1,193 @@
+body{
+    color: rgb(0, 255, 34);
+}
+header{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 2px red solid ;
+    flex-wrap: wrap;
+}
+.top_s{/*section*/
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 20px;
+    border: 2px red solid ;
+}
+.sleep{/*lieu d'hébergements*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.heb{/*partie hébergements*/
+    width: 70%;
+    height: auto;
+    background-color: #f2f2f2;
+    border-radius: 25px 25px 25px 25px;
+    margin-right: 30px;
+}
+.populaires{
+    width: 27%;
+    height: auto;
+    background-color: #f2f2f2;
+    border-radius: 25px 25px 25px 25px;
+    padding-left: 30px;
+    padding-right:30px;
+}
+.photos_bs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nh:nth-child(1){
+    border: 2px black solid;
+    order: 2;
+    width: 50%;
+}
+.na:nth-child(2){
+    border: 2px black solid;
+    order: 3;
+    width: 50%;
+}
+.ni:nth-child(3){
+    display: block;
+    border: 2px black solid;
+    order: 1;
+    align-self: ;
+}
+.top_header{/*logo et nav bloc 1*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+    flex-wrap: wrap;
+}
+.logo_reservia:nth-child(1){
+    width: 100px;
+    height: 90px;
+    display: flex;
+}
+.filtres{/*bloc 4 les filtres*/
+    width: 99%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.critères{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center; 
+    padding-left: 20px;
+    flex-wrap: wrap;
+}
+.annonce{/*bloc 2 annonce*/
+    width: 98%;
+    flex-wrap: wrap;
+}
+.bot_section{/* bloc section activités*/
+    height: auto;
+    border: 1px red solid;
+   
+}
+#activités{
+    font-size: 3em;
+    padding-left: 2%;
+}
+.c_a{
+    width: 96%;
+    height: 500px;
+    margin-top: 3.5%;
+    margin-bottom: 3.5%;
+    border-radius: 60px 60px 60px 60px;
+}
+.g_p{
+height: 100%;
+}
+.g_p img{
+    width: 100%;
+    height: 150%;
+}
+.t_a{
+    height: 150px;
+    font-size: 2.8em;
+    padding-left: 80px;
+}
+.c_a2{
+    width: 100%;
+    height: auto;
+}
+
+.p_p{
+    height: 100%;
+}
+.p_p img{
+    height: 170%;
+    width: 100%;
+    position: relative;
+    bottom: 50px;
+}
+.p_fort{
+   height: 100%;
+}
+.p_fort img{
+    height: 350%;
+    position: relative;
+    bottom: 400px;
+}
+.p_frioul{
+    height: 100%;
+}
+.p_frioul img{
+    height: 150%;
+    width: 100%;
+}
+#bot_r{
+    width: 96%;
+    height: 500px;
+    margin-top: 3.5%;
+    margin-bottom: 3.5%;
+    border-radius: 60px 60px 60px 60px;
+}
+
+footer{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+footer div{
+    width: auto;
+    height: auto;
+    font-size: 3em;
+}
+footer li{
+    margin-bottom: 30px;
+}
+.bv1{
+    display: none;
+}
+.bv2{
+    display: none;
+}
+.bv3{
+    display: none;
+}

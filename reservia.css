@@ -8,36 +8,60 @@ body{
     font-family:"Raleway","Raleway Black",Arial,"Arial Black","Comic Sans MS","Courier New","Georgia","Impact","Times New Roman","Trebuchet MS","Verdana";
 }
 header{
-    width: 98%;
-    padding-left: 2%;
+    width: 96%;
+    padding-left:2%;
+    margin-right: 2%;
 }
 .top_header{/*logo et nav bloc 1*/
+    height: 100px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding-top: 0px;
 }
 .logo_reservia{
     width: 200px;
-    height: 90px;
+    height: 100%;
     display: flex;
-}
-.top_nav ul{
-    display: flex;
+    justify-content: left;
     align-items: center;
-    justify-content: center;
-    height: 90px;
-    margin-top: 0px;
-    list-style-type: none;
+    flex: 2;
 }
-.top_nav li{
+.logo_reservia img{
+    width: 150px;
+}
+.nh{
     width: 150px;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 0px;
+    flex: 1;
 }
-.top_nav a{
+.na{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    flex: 1;
+}
+.ni{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    flex: 1;
+}
+.bloc_vide{
+    height: 100%;
+    flex: 5;
+}
+.top_header a{
+    width: 100%;
     font-size: 1.2em;
     text-decoration: none;
 }
@@ -77,7 +101,7 @@ header{
     border-top: 2px#0065FC solid;
 }/*fin du bloc 1*/
 .annonce{/*bloc 2 annonce*/
-    width: 100%;
+    width: 98%;
 }
 .annonce p{
     font-size: 1.1em;
@@ -128,6 +152,7 @@ header{
 .b_recherche{
     width: 100px;
     height: 100%;
+    padding: 0px 20px 0px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,7 +170,7 @@ header{
 
 .filtres{/*bloc 4 les filtres*/
     width: 99%;
-    height: 50px;
+    height: 60px;
     margin-top: 20px;
     display: flex;
     justify-content:start;
@@ -153,19 +178,20 @@ header{
 }
 .fi{
     width: 80px;
-    height: 50px;
+    height: 60px;
     display: flex;
     align-items: center;
     margin-left: 15px;
 }
 .critères{
     width: 90%;
-    height: 50px;
+    height: 60px;
     display: flex;
     align-items: center; 
     padding-left: 20px;
 }
 .critères a{
+    font-size: 1.1em;
     text-decoration: none;
     color: black;
 }
@@ -173,16 +199,16 @@ header{
     font-size: 1.2em;
 }
 #circle{
-    height: 46px;
-    width: 46px;
+    height: 66px;
+    width: 66px;
     font-size: 1.2em;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 33px 33px 33px 33px;
     background-color: #DEEBFF;
     position: relative;
-    right:5px;
+    right:4px;
 
     ;   
 }
@@ -197,13 +223,14 @@ header{
 }
 
 #f{/*contour global de chaques critères*/
-    height: 40px;
+    height: 60px;
     display: flex;
     justify-content: start;
     align-items: center;
     border: 3px #f2f2f2 solid;
+    padding: 0px 20px 0px 0px;
     margin-left: 30px;
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 30px 30px 30px 30px;
 }/*fin du bloc 4*/
 .info{/*bloc 5 info*/
     height: 40px;
@@ -517,7 +544,7 @@ height: 100%;
 }/*fin du bloc section activités*/
 footer{
     width: 100%;
-    height: 200px;
+    height: auto;
     margin-top: 50px;
     display: flex;
     justify-content: flex-start;
