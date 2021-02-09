@@ -152,6 +152,7 @@ header{
 .b_recherche{
     width: 100px;
     height: 100%;
+    padding: 0px 20px 0px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
