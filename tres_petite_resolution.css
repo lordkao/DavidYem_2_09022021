@@ -132,7 +132,12 @@ height: 70%;
     height: 70%;
 }
 .p_fort{
-    height: 70%;
+   height: 100%;
+}
+.p_fort img{
+    height: 350%;
+    position: relative;
+    bottom: 400px;
 }
 .p_frioul{
     height: 70%;
@@ -156,6 +161,18 @@ footer{
 }
 footer div{
     width: auto;
+    height: auto;
     font-size: 3em;
-
+}
+footer li{
+    margin-bottom: 30px;
+}
+.bv1{
+    display: none;
+}
+.bv2{
+    display: none;
+}
+.bv3{
+    display: none;
 }

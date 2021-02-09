@@ -544,7 +544,7 @@ height: 100%;
 }/*fin du bloc section activités*/
 footer{
     width: 100%;
-    height: 200px;
+    height: auto;
     margin-top: 50px;
     display: flex;
     justify-content: flex-start;
