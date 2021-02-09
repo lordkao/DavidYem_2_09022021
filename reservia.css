@@ -413,6 +413,10 @@ height: 100%;
     display: flex;
     justify-content: space-between;
 }
+.photos_bs a{
+    text-decoration: none;
+    color: black;
+}
 .c_a{
     width: 23%;
     height: 100%;
