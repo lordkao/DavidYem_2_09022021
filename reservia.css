@@ -7,11 +7,15 @@ body{
     margin-bottom: 0px;
     font-family:"Raleway","Raleway Black",Arial,"Arial Black","Comic Sans MS","Courier New","Georgia","Impact","Times New Roman","Trebuchet MS","Verdana";
 }
+
+
 header{
     width: 96%;
     padding-left:2%;
     margin-right: 2%;
 }
+
+
 .top_header{/*logo et nav bloc 1*/
     height: 100px;
     display: flex;
@@ -100,6 +104,8 @@ header{
 .i:hover{
     border-top: 2px#0065FC solid;
 }/*fin du bloc 1*/
+
+
 .annonce{/*bloc 2 annonce*/
     width: 98%;
 }
@@ -111,6 +117,8 @@ header{
     font-size: 2em;
     margin-bottom: 0px;
 }/*fin du bloc 2*/
+
+
 .barre_de_recherche{/*bloc 3 barre de recherche*/
     width: 100%;
     height: 50px;
@@ -168,6 +176,7 @@ header{
     color: black;
 }/*fin du bloc 3*/
 
+
 .filtres{/*bloc 4 les filtres*/
     width: 99%;
     height: 60px;
@@ -221,7 +230,6 @@ header{
     padding-left: 10px;
     padding-right: 15px;
 }
-
 #f{/*contour global de chaques critères*/
     height: 60px;
     display: flex;
@@ -232,6 +240,8 @@ header{
     margin-left: 30px;
     border-radius: 30px 30px 30px 30px;
 }/*fin du bloc 4*/
+
+
 .info{/*bloc 5 info*/
     height: 40px;
     margin-top: 10px;
@@ -255,6 +265,8 @@ header{
     margin-top: 0px;
     margin-bottom: 0px;
 }/*fin  du bloc 5*/
+
+
 .top_s{/*section*/
     display: flex;
     justify-content: space-between;
@@ -265,6 +277,8 @@ header{
     margin-right: 2%;
     margin-top: 20px;
 }
+
+
 .heb{/*partie hébergements*/
     width: 70%;
     height: 750px;
@@ -376,6 +390,16 @@ header{
 .plus a:hover{
     text-decoration: underline;
 }/*fin bloc hébergements*/
+
+
+
+.top_aside{/*bloc aside populaires*/
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .populaires{
     width: 27%;
     height: 750px;
@@ -383,13 +407,6 @@ header{
     border-radius: 25px 25px 25px 25px;
     padding-left: 30px;
     padding-right:30px;
-}
-.top_aside{/*bloc aside populaires*/
-    height: 10%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 .t_pop h1{
     font-size: 1.6em;
@@ -461,6 +478,8 @@ header{
     color: #f2f2f2;
     margin-top: 5px;
 }/*fin bloc aside populaire*/
+
+
 .bot_section{/* bloc section activités*/
     width: 96%;
     height: 600px;
@@ -587,7 +606,9 @@ header{
     box-shadow: 0px 0px 10px 1px rgb(200,200,200);
     overflow: hidden;
 }/*fin du bloc section activités*/
-footer{
+
+
+footer{/*pied de page*/
     width: 100%;
     height: 300px;
     margin-top: 50px;
