@@ -7,11 +7,15 @@ body{
     margin-bottom: 0px;
     font-family:"Raleway","Raleway Black",Arial,"Arial Black","Comic Sans MS","Courier New","Georgia","Impact","Times New Roman","Trebuchet MS","Verdana";
 }
+
+
 header{
     width: 96%;
     padding-left:2%;
     margin-right: 2%;
 }
+
+
 .top_header{/*logo et nav bloc 1*/
     height: 100px;
     display: flex;
@@ -100,6 +104,8 @@ header{
 .i:hover{
     border-top: 2px#0065FC solid;
 }/*fin du bloc 1*/
+
+
 .annonce{/*bloc 2 annonce*/
     width: 98%;
 }
@@ -111,6 +117,8 @@ header{
     font-size: 2em;
     margin-bottom: 0px;
 }/*fin du bloc 2*/
+
+
 .barre_de_recherche{/*bloc 3 barre de recherche*/
     width: 100%;
     height: 50px;
@@ -168,6 +176,7 @@ header{
     color: black;
 }/*fin du bloc 3*/
 
+
 .filtres{/*bloc 4 les filtres*/
     width: 99%;
     height: 60px;
@@ -221,7 +230,6 @@ header{
     padding-left: 10px;
     padding-right: 15px;
 }
-
 #f{/*contour global de chaques critères*/
     height: 60px;
     display: flex;
@@ -232,6 +240,8 @@ header{
     margin-left: 30px;
     border-radius: 30px 30px 30px 30px;
 }/*fin du bloc 4*/
+
+
 .info{/*bloc 5 info*/
     height: 40px;
     margin-top: 10px;
@@ -255,6 +265,8 @@ header{
     margin-top: 0px;
     margin-bottom: 0px;
 }/*fin  du bloc 5*/
+
+
 .top_s{/*section*/
     display: flex;
     justify-content: space-between;
@@ -265,6 +277,8 @@ header{
     margin-right: 2%;
     margin-top: 20px;
 }
+
+
 .heb{/*partie hébergements*/
     width: 70%;
     height: 750px;
@@ -307,8 +321,35 @@ header{
     overflow: hidden;
 }
 .photo_p1 img{
-width: 100%;
-height: 100%;
+    width: 120%;
+    height: 120%;
+    position: relative;
+    right: 20px;
+    bottom: 10px;
+}
+.amina{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+.amina img{
+    width: 100%;
+    height: 230%;
+    position: relative;
+    right: 0px;
+    bottom:90px;
+}
+.mer{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+.mer img{
+    width: 150%;
+    height: 170%;
+    position: relative;
+    right: 100px;
+    bottom: 50px;
 }
 .note_p1{
     height: 40%;
@@ -349,6 +390,16 @@ height: 100%;
 .plus a:hover{
     text-decoration: underline;
 }/*fin bloc hébergements*/
+
+
+
+.top_aside{/*bloc aside populaires*/
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .populaires{
     width: 27%;
     height: 750px;
@@ -356,13 +407,6 @@ height: 100%;
     border-radius: 25px 25px 25px 25px;
     padding-left: 30px;
     padding-right:30px;
-}
-.top_aside{/*bloc aside populaires*/
-    height: 10%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 .t_pop h1{
     font-size: 1.6em;
@@ -407,7 +451,9 @@ height: 100%;
 }
 .photo_aside img{
     height: 100%;
-    width: 100%;
+    width: 160%;
+    position: relative;
+    right: 45px;
 }
 .note_p2{
     height: 100%;
@@ -415,11 +461,25 @@ height: 100%;
     background-color: white;
     padding-left: 15px;
 }
+.amina2{
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+.amina2 img{
+    height: 130%;
+    width: 120%;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+}
 .note_p2 i{
     font-size: 1.1em;
     color: #f2f2f2;
     margin-top: 5px;
 }/*fin bloc aside populaire*/
+
+
 .bot_section{/* bloc section activités*/
     width: 96%;
     height: 600px;
@@ -470,8 +530,10 @@ height: 100%;
     overflow: hidden;
 }
 .g_p img{
-    width: 100%;
+    width: 220%;
     height: 540px;
+    position: relative;
+    right: 220px;
 }
 .cp_a{
     width: 100%;
@@ -491,7 +553,7 @@ height: 100%;
 }
 .p_p img{
     width: 100%;
-    height: 100%;
+    height: 140%;
 }
 .t_a{
     width: 100%;
@@ -520,7 +582,9 @@ height: 100%;
 }
 .p_fort img{
     width: 100%;
-    height: 100%;
+    height: 200%;
+    position: relative;
+    bottom: 70px;
 }
 .p_frioul{
     width: 100%;
@@ -529,7 +593,7 @@ height: 100%;
 }
 .p_frioul img{
     width: 100%;
-    height: 100%;
+    height: 150%;
 }
 .cp_frioul{
     width: 100%;
@@ -542,9 +606,11 @@ height: 100%;
     box-shadow: 0px 0px 10px 1px rgb(200,200,200);
     overflow: hidden;
 }/*fin du bloc section activités*/
-footer{
+
+
+footer{/*pied de page*/
     width: 100%;
-    height: auto;
+    height: 300px;
     margin-top: 50px;
     display: flex;
     justify-content: flex-start;
@@ -562,13 +628,18 @@ footer div{
 footer ul{
     list-style-type:none;
     padding-left: 0px;
+    margin-bottom: 30px;
 }
 footer h4{
     font-size: 1.2em;
+    margin-top: 80px;
     margin-bottom: 0px;
+}
+footer li{
     margin-top: 20px;
 }
 .bv1{
+    height: 100%;
     width:5%;
 }
 .bv2{
