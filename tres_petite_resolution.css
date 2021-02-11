@@ -4,39 +4,90 @@ body{
 
 
 header{/*en-tête*/
-    width: 96%;
-    margin-left: 2%;
-    margin-right: 2%;
-    border: 2px red solid ;
+    height: auto;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    border: 1px rgb(47, 99, 245) solid ;
     flex-wrap: wrap;
 }
-.nh:nth-child(1){
-    border: 2px black solid;
-    order: 2;
-    width: 50%;
-}
-.na:nth-child(2){
-    border: 2px black solid;
-    order: 3;
-    width: 50%;
-}
-.ni:nth-child(3){
-    display: block;
-    border: 2px black solid;
-    order: 1;
-    align-self: ;
-}
+
 .top_header{/*logo et nav bloc 1*/
-    width: 100%;
+    width: auto;
+    height: auto;
+    padding: 0% 0% 0% 0%;
     display: flex;
     align-items: center;
-    padding-top: 0px;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
+.top_header a{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+    font-size: 2.5em;
+    border-bottom: 5px #f2f2f2 solid;
+}
 .logo_reservia:nth-child(1){
-    width: 100px;
-    height: 90px;
-    display: flex;
+    width: 30%;
+    height: 150px;
+    flex: none;
+    order: 1;
+}
+.logo_reservia img{
+    width: 250px;
+    padding-left: 50px;
+}
+.nh:nth-child(3){
+    width: 49%;
+    height: 50px;
+    margin-top: 40px;
+    flex: none;
+    order: 4;
+}
+.h:hover{
+    border-top: none;
+    border-bottom: 5px#0065FC solid;
+
+}
+.na:nth-child(4){
+    width: 50%;
+    height: 50px;
+    margin-right: 0px;
+    margin-top: 40px;
+    flex: none;
+    order: 5;
+}
+.a:hover{
+    border-top: none;
+    border-bottom: 5px black solid;
+
+}  
+.ni:nth-child(5){
+    width: 29%;
+    height: 150px;
+    margin-right: 0px;
+    flex: none;
+    order: 3;
+}
+.ni a{
+    border: transparent;
+}
+.i:hover{
+    border-top: none;
+}
+.i{
+    margin-top: 0px;
+    padding-right: 50px;
+    justify-content:flex-end;
+}
+.bloc_vide:nth-child(2){
+    height: 150px;
+    width: 40%;
+    flex:none;
+    order: 2;
 }
 
 .filtres{/*bloc 4 les filtres*/
@@ -74,7 +125,7 @@ header{/*en-tête*/
     margin: 0px 0px 0px 0px;
 }
 
-.populaires{
+.populaires{/*bloc aside populaires*/
     width: 100%;
     height: auto;
     background-color: #f2f2f2;
@@ -83,7 +134,7 @@ header{/*en-tête*/
     padding-right:0px;
     padding-bottom: 60px;
 }
-.top_aside{/*bloc aside populaires*/
+.top_aside{
     height: auto;
     width: auto;
     margin: 100px 3% 50px 3%;
@@ -146,7 +197,7 @@ header{/*en-tête*/
     margin-bottom: 0px;
 }
 .note_p2 i{
-    font-size: 1.5em;
+    font-size: 2em;
     color: #f2f2f2;
     margin-top: 140px;
 }
@@ -172,7 +223,7 @@ header{/*en-tête*/
 
 
 
-.sleep{/*lieu d'hébergements*/
+.sleep{/*photos d'hébergements*/
     width: 100%;
     height: auto;
     display: flex;

@@ -354,14 +354,14 @@ header{
     height: 40%;
     width: 100%;
     background-color: white;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 .note_p1 p{
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .note_p1 i{
-    font-size: 1.1em;
+    font-size: 0.9em;
     color: #f2f2f2;
     margin-top: 0px;
    
@@ -459,16 +459,27 @@ header{
     position: relative;
     right: 45px;
 }
-.note_p2{
-    height: 100%;
-    width: 60%;
-    background-color: white;
-    padding-left: 15px;
-}
+
 .amina2{
     width: 40%;
     height: 100%;
     overflow: hidden;
+}
+.note_p2{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    padding-left: 20px;
+}
+.note_p2 h2{
+    width: 80%;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.note_p2 p{
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 .amina2 img{
     height: 130%;
@@ -478,9 +489,10 @@ header{
     bottom: 20px;
 }
 .note_p2 i{
-    font-size: 1.1em;
+    font-size: 0.9em;
     color: #f2f2f2;
-    margin-top: 5px;
+    margin-top: 50px;
+
 }/*fin bloc aside populaire*/
 
 
