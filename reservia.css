@@ -244,7 +244,8 @@ header{
 
 .info{/*bloc 5 info*/
     height: 40px;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .info i{
     width: 30px;
@@ -263,7 +264,6 @@ header{
     align-items: center;
     font-size: 1.3em;
     margin-top: 0px;
-    margin-bottom: 0px;
 }/*fin  du bloc 5*/
 
 
