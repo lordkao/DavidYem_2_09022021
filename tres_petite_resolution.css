@@ -85,25 +85,21 @@ header{/*en-tête*/
 }
 .note_p1{
     padding-left: 35px;
-    border: 1px blue solid;
 }
 .note_p1 h2{
     font-size: 2.8em;
     margin-top: 20px;
     margin-bottom: 0px;
-    border: 1px red solid;
 }
 .note_p1 p{
     font-size: 2.4em;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 0px;
-    border: 1px rgb(236, 16, 16) solid;
 }
 .note_p1 i{
     font-size: 2em;
     color: #f2f2f2;
-    margin-top: 5px;
-    border: 1px black solid;
+    margin-top: 15px;
 }
 .amina img{
     width: 105%;
@@ -130,6 +126,13 @@ header{/*en-tête*/
     position: relative;
     right: 30px;
     bottom: 150px;
+}
+.plus{
+    height: auto;
+    padding-left: 2%;
+}
+.plus h2{
+    font-size: 2.4em;
 }
 
 .populaires{
@@ -255,7 +258,7 @@ footer{/*Pied de page*/
 footer div{
     width: auto;
     height: auto;
-    font-size: 3em;
+    font-size: 2.4em;
 }
 footer li{
     margin-bottom: 30px;
