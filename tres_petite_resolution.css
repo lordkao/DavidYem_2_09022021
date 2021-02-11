@@ -4,81 +4,91 @@ body{
 
 
 header{/*en-tête*/
-    width: 96%;
-    margin-left: 2%;
-    margin-right: 2%;
-    border: 2px red solid ;
+    height: auto;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    border: 1px rgb(47, 99, 245) solid ;
     flex-wrap: wrap;
 }
-.nh:nth-child(1){
-    border: 2px black solid;
-    order: 2;
-    width: 50%;
-}
-.na:nth-child(2){
-    border: 2px black solid;
-    order: 3;
-    width: 50%;
-}
-.ni:nth-child(3){
-    display: block;
-    border: 2px black solid;
-    order: 1;
-    align-self: ;
-}
+
 .top_header{/*logo et nav bloc 1*/
-    width: 100%;
+    width: auto;
+    height: auto;
+    padding: 0% 0% 0% 0%;
     display: flex;
     align-items: center;
-    padding-top: 0px;
+    justify-content: flex-start;
     flex-wrap: wrap;
+}
+.top_header a{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+    font-size: 2.5em;
+    border-bottom: 5px #f2f2f2 solid;
 }
 .logo_reservia:nth-child(1){
-    width: 100px;
-    height: 90px;
-    display: flex;
+    width: 30%;
+    height: 150px;
+    flex: none;
+    order: 1;
 }
-
-
-.top_s{/*section*/
-    display: flex;
-    flex-direction:column-reverse;
-    justify-content: center;
-    align-items: center;
-    width: 96%;
-    height: auto;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 20px;
-    border: 2px red solid ;
+.logo_reservia img{
+    width: 250px;
+    padding-left: 50px;
 }
-.sleep{/*lieu d'hébergements*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    height: auto;
+.nh:nth-child(3){
+    width: 49%;
+    height: 50px;
+    margin-top: 40px;
+    flex: none;
+    order: 4;
 }
-.heb{/*partie hébergements*/
-    width: 70%;
-    height: auto;
-    background-color: #f2f2f2;
-    border-radius: 25px 25px 25px 25px;
-    margin-right: 30px;
+.h:hover{
+    border-top: none;
+    border-bottom: 5px#0065FC solid;
+
 }
-
-.populaires{
-    width: 27%;
-    height: auto;
-    background-color: #f2f2f2;
-    border-radius: 25px 25px 25px 25px;
-    padding-left: 30px;
-    padding-right:30px;
+.na:nth-child(4){
+    width: 50%;
+    height: 50px;
+    margin-right: 0px;
+    margin-top: 40px;
+    flex: none;
+    order: 5;
 }
+.a:hover{
+    border-top: none;
+    border-bottom: 5px black solid;
 
-
-
+}  
+.ni:nth-child(5){
+    width: 29%;
+    height: 150px;
+    margin-right: 0px;
+    flex: none;
+    order: 3;
+}
+.ni a{
+    border: transparent;
+}
+.i:hover{
+    border-top: none;
+}
+.i{
+    margin-top: 0px;
+    padding-right: 50px;
+    justify-content:flex-end;
+}
+.bloc_vide:nth-child(2){
+    height: 150px;
+    width: 40%;
+    flex:none;
+    order: 2;
+}
 
 .filtres{/*bloc 4 les filtres*/
     width: 99%;
@@ -105,14 +115,198 @@ header{/*en-tête*/
 }
 
 
-.bot_section{/* bloc section activités*/
+.top_s{/*section*/
+    width: 100%;
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+    align-items: center;
     height: auto;
-    border: 1px red solid;
+    margin: 0px 0px 0px 0px;
+}
+
+.populaires{/*bloc aside populaires*/
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    border-radius: 0px;
+    padding-left: 0px;
+    padding-right:0px;
+    padding-bottom: 60px;
+}
+.top_aside{
+    height: auto;
+    width: auto;
+    margin: 100px 3% 50px 3%;
+}
+.t_pop h1{
+    font-size: 3.6em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.arrow{
+    height: 60px;
+    width: auto;
+    margin-top:0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 3.6em;
+}
+
+.cadre_aside{
+    height: 400px;
+    width: 94%;
+    margin-bottom: 3.5%; 
+    border-radius: 60px 60px 60px 60px;
+    border: 10px white solid;
+}
+.photo_aside{
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+.photo_aside img{
+    height: 111%;
+    width: 160%;
+    position: relative;
+    right: 100px;
+    bottom: 20px;
+}
+.amina2 img{
+    height: 150%;
+    width: 100%;
+    position: relative;
+    right: 0px;
+    bottom: 90px;
+}
+.note_p2{
+    height: 100%;
+    width: 60%;
+    padding-left: 5%;
+}
+
+.note_p2 h2{
+    width: 80%;
+    font-size: 2.8em;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.note_p2 p{
+    font-size: 2.4em;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.note_p2 i{
+    font-size: 2em;
+    color: #f2f2f2;
+    margin-top: 140px;
+}
+
+
+.heb{/*partie hébergements*/
+    width: 100%;
+    height: auto;
+    margin-right: 0px;
+    background-color: white;
+}
+.t_heb{
+    padding-left: 3%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.t_heb h1{
+    width: 100%;
+    font-size: 3.6em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.sleep{/*photos d'hébergements*/
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 0px;
+}
+.cadre_p1{
+    width: 94%;
+    height: 500px;
+    margin-bottom: 3.5%; 
+    border: 10px white solid;
+    border-radius: 60px 60px 60px 60px;
+}
+.note_p1{
+    width: auto;
+    padding-left: 35px;
+}
+.note_p1 h2{
+    font-size: 2.8em;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.note_p1 p{
+    font-size: 2.4em;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.note_p1 i{
+    font-size: 2em;
+    color: #f2f2f2;
+    margin-top: 15px;
+}
+.amina img{
+    width: 105%;
+    height: 400%;
+    position: relative;
+    right: 20px;
+    bottom: 440px;
+}
+.mer img{
+    width: 103%;
+    height: 280%;
+    position: relative;
+    right: 20px;
+    bottom: 265px;
+}
+.photo_p1{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+.photo_p1 img{
+    width: 105%;
+    height: 200%;
+    position: relative;
+    right: 30px;
+    bottom: 150px;
+}
+.plus{
+    height: auto;
+    padding-left: 3%;
+}
+.plus h2{
+    font-size: 2.4em;
+}
+
+
+
+
+
+
+.bot_section{/* bloc section activités*/
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    padding-right: 0%;
    
 }
 #activités{
-    font-size: 3em;
-    padding-left: 2%;
+    font-size: 3.8em;
+    padding-left: 3%;
 }
 .photos_bs{
     width: 100%;
@@ -123,7 +317,7 @@ header{/*en-tête*/
     align-items: center;
 }
 .c_a{
-    width: 96%;
+    width: 94%;
     height: 500px;
     margin-top: 3.5%;
     margin-bottom: 3.5%;
@@ -172,7 +366,7 @@ height: 100%;
     width: 100%;
 }
 #bot_r{
-    width: 96%;
+    width: 94%;
     height: 500px;
     margin-top: 3.5%;
     margin-bottom: 3.5%;
@@ -185,12 +379,11 @@ footer{/*Pied de page*/
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 20px;
 }
 footer div{
     width: auto;
     height: auto;
-    font-size: 3em;
+    font-size: 2.4em;
 }
 footer li{
     margin-bottom: 30px;
