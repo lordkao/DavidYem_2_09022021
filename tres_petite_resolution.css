@@ -1,5 +1,5 @@
 body{
-    color: rgb(0, 255, 34);
+    color: black(0, 0, 0);
 }
 
 
@@ -90,6 +90,75 @@ header{/*en-tête*/
     order: 2;
 }
 
+.annonce{/*bloc 2 annonce*/
+    width: 100%;
+    margin-top: 100px;
+}
+.annonce p{
+    font-size: 2.5em;
+    margin-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.annonce h1{
+    font-size: 3.5em;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.barre_de_recherche{/*bloc 3 barre de recherche*/
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+}
+.barre_de_recherche label{
+    height: 100%;
+    width: 50px;
+}
+.logo_pos{
+    width: 50px;
+    height: 100%;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 15px 0 0 15px;
+}
+.formulaire{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulaire input{
+    height: 100px;
+    width: 200px;
+    border: 1px #f2f2f2 solid;
+}
+.formulaire input::placeholder{
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.b_recherche{
+    width: 100px;
+    height: 100%;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    background-color: #0065FC;
+    border-radius: 0 15px 15px 0;
+}
+
 .filtres{/*bloc 4 les filtres*/
     width: 99%;
     height: auto;
@@ -99,6 +168,8 @@ header{/*en-tête*/
     align-items: center;
     flex-wrap: wrap;
 }
+
+
 .critères{
     width: 90%;
     height: auto;
