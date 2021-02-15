@@ -63,7 +63,11 @@ header{
     height: 100px;
     display: flex;
     align-items: center;
-    padding-top: 0px;
+}
+.top_header a{
+    width: 100%;
+    font-size: 1.2em;
+    text-decoration: none;
 }
 .logo_reservia{
     width: auto;
@@ -83,7 +87,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 0px;
     flex: 1.3;
 
 }
@@ -92,7 +95,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 0px;
     flex: 1.3;
 
 }
@@ -101,7 +103,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 0px;
     flex: 1.3;
 
 }
@@ -109,11 +110,6 @@ header{
     height: 100%;
     flex: 5;
 
-}
-.top_header a{
-    width: 100%;
-    font-size: 1.2em;
-    text-decoration: none;
 }
 .h{
     height: 100%;
@@ -393,7 +389,7 @@ header{
 }
 
 .cadre_p1{
-    width: 29%;
+    width: 30%;
     height: 40%;
     display: flex;
     flex-direction: column;
@@ -425,6 +421,7 @@ header{
     padding-left: 20px;
 }
 .note_p1 p{
+    font-size: 1.1em;
     margin-top: 10px;
 }
 .note_p1 i{
@@ -436,9 +433,9 @@ header{
     color: #0065FC;
 }
 .note_p1 h2{
-    font-size: 1.2em ;
+    font-size: 1.3em ;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .ec{
     font-weight: bold;
@@ -546,13 +543,12 @@ header{
 .note_p2 h2{
     width: 80%;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin-top: 20px;
-    margin-bottom: 0px;
 }
 .note_p2 p{
     margin-top: 10px;
-    margin-bottom: 0px;
+    font-size: 1.1em;
 }
 .note_p2 i{
     font-size: 0.9em;
