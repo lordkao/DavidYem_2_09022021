@@ -207,8 +207,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-   
-    
 }
 .formulaire input{
     font-size: 1.3em;
@@ -217,6 +215,7 @@ header{
     border: 2px #f2f2f2 solid;
     border-left-color: transparent;
     border-right-color: transparent;
+    font-weight: bold;
 
 }
 .formulaire input::placeholder{
@@ -239,6 +238,9 @@ header{
 .b_recherche a{
     text-decoration: none;
     color: white;
+}
+.b_recherche i{
+    display: none;
 }
 .b_recherche a:hover{
     color: black;
