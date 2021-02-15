@@ -14,7 +14,7 @@ header{/*en-tête*/
 
 .top_header{/*logo et nav bloc 1*/
     width: auto;
-    height: 200px;
+    height: 165px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -97,20 +97,23 @@ header{/*en-tête*/
 }
 
 .annonce{/*bloc 2 annonce*/
-    width: 100%;
-    margin-top: 100px;
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 .annonce p{
-    font-size: 1.5em;
-    margin-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    width: auto;
+    font-size: 1.2em;
+
 }
 .annonce h1{
+    width: auto;
+    font-weight: 800;
     font-size: 1.5em;
-    margin-bottom: 30px;
-    padding-left: 0px;
-    padding-right: 0px;
+
 }
 
 .barre_de_recherche{/*bloc 3 barre de recherche*/
@@ -186,10 +189,6 @@ header{/*en-tête*/
 }
 
 
-.annonce{/*bloc 2 annonce*/
-    width: 98%;
-    flex-wrap: wrap;
-}
 
 
 .top_s{/*section*/
