@@ -1,3 +1,4 @@
+
 body{
     color: black(0, 0, 0);
 }
@@ -6,46 +7,51 @@ body{
 header{/*en-tête*/
     height: auto;
     width: 100%;
-    margin-top: 0px;
-    margin-left: 0%;
-    margin-right: 0%;
-    padding-left: 0%;
-    border: 1px rgb(47, 99, 245) solid ;
+    padding: 0px;
     flex-wrap: wrap;
+
 }
 
 .top_header{/*logo et nav bloc 1*/
     width: auto;
-    height: auto;
-    padding: 0% 0% 0% 0%;
+    height: 165px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
+
 }
 .top_header a{
     width: 100%;
-    height: 100%;
-    padding-bottom: 30px;
-    font-size: 2.5em;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    font-weight:600;
     border-bottom: 5px #f2f2f2 solid;
+
 }
 .logo_reservia:nth-child(1){
-    width: 30%;
-    height: 150px;
+    width: 50%;
+    height: 90px;
+    justify-content: left;
     flex: none;
     order: 1;
+
 }
 .logo_reservia img{
-    width: 250px;
-    padding-left: 50px;
+    height: 60%;
+    width: 60%;
+    margin-left: 20px;
 }
 .nh:nth-child(3){
-    width: 49%;
-    height: 50px;
-    margin-top: 40px;
+    width: 50%;
+    height: 70px;
     flex: none;
     order: 4;
+    margin-bottom: 40px;
+
 }
 .h:hover{
     border-top: none;
@@ -54,11 +60,11 @@ header{/*en-tête*/
 }
 .na:nth-child(4){
     width: 50%;
-    height: 50px;
-    margin-right: 0px;
-    margin-top: 40px;
+    height:70px;
     flex: none;
     order: 5;
+    margin-bottom: 40px;
+
 }
 .a:hover{
     border-top: none;
@@ -66,98 +72,100 @@ header{/*en-tête*/
 
 }  
 .ni:nth-child(5){
-    width: 29%;
-    height: 150px;
-    margin-right: 0px;
+    width: 30%;
+    height: 90px;
     flex: none;
     order: 3;
+
 }
 .ni a{
+    font-weight: 800;
     border: transparent;
 }
 .i:hover{
     border-top: none;
 }
 .i{
-    margin-top: 0px;
-    padding-right: 50px;
-    justify-content:flex-end;
+    margin-right: 20px;
 }
 .bloc_vide:nth-child(2){
-    height: 150px;
-    width: 40%;
+    height: 90px;
+    width: 20%;
     flex:none;
     order: 2;
+
 }
 
 .annonce{/*bloc 2 annonce*/
-    width: 100%;
-    margin-top: 100px;
+    width: auto;
+    height: auto;
+    margin: 40px 0px 40px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 .annonce p{
-    font-size: 2.5em;
-    margin-top: 0px;
-    padding-left: 50px;
-    padding-right: 50px;
+    width: auto;
+    font-size: 1.2em;
+
 }
 .annonce h1{
-    font-size: 3.5em;
-    margin-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
+    width: auto;
+    font-weight: 800;
+    font-size: 1.5em;
+    
 }
 
-.barre_de_recherche{/*bloc 3 barre de recherche*/
-    width: 500px;
-    height: 100px;
-    display: flex;
+
+
+.search{/*bloc 3 barre de recherche*/
+    width: 100%;
+    height: 60px;
     justify-content: center;
     align-items: center;
-    border: 1px black solid;
 }
+.barre_de_recherche{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-left: 17px;
+}
+
 .barre_de_recherche label{
     height: 100%;
     width: 50px;
 }
 .logo_pos{
-    width: 50px;
-    height: 100%;
-    font-size: 1.5em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f2f2f2;
-    border-radius: 15px 0 0 15px;
+    font-size: 1.2em;
 }
 .formulaire{
-    height: 100%;
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: auto;
 }
 .formulaire input{
-    height: 100px;
-    width: 200px;
-    border: 1px #f2f2f2 solid;
+    font-size: 1.1em;
 }
 .formulaire input::placeholder{
-    color: black;
-    font-size: 1.3em;
-    font-weight: bold;
-    padding-left: 10px;
+    font-size: 1.1em;
 }
 .b_recherche{
-    width: 100px;
-    height: 100%;
-    padding: 0px 20px 0px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.1em;
-    background-color: #0065FC;
-    border-radius: 0 15px 15px 0;
+    width: 60px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    right: 17px;
 }
+
+.rechercher{
+    display: none;
+}
+.b_recherche i{
+    display: block;
+    font-size: 1.5em;
+}
+
 
 .filtres{/*bloc 4 les filtres*/
     width: 99%;
@@ -180,20 +188,16 @@ header{/*en-tête*/
 }
 
 
-.annonce{/*bloc 2 annonce*/
-    width: 98%;
-    flex-wrap: wrap;
-}
 
 
 .top_s{/*section*/
-    width: 100%;
+    width: 100%; 
+    height: auto;
     display: flex;
     flex-direction:column-reverse;
     justify-content: center;
     align-items: center;
-    height: auto;
-    margin: 0px 0px 0px 0px;
+    margin: 0%;
 }
 
 .populaires{/*bloc aside populaires*/
@@ -208,10 +212,10 @@ header{/*en-tête*/
 .top_aside{
     height: auto;
     width: auto;
-    margin: 100px 3% 50px 3%;
+    margin: 0px 0% 0px 0%;
 }
 .t_pop h1{
-    font-size: 3.6em;
+    font-size: 1em;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -229,26 +233,22 @@ header{/*en-tête*/
     width: 94%;
     margin-bottom: 3.5%; 
     border-radius: 60px 60px 60px 60px;
-    border: 10px white solid;
+    border: 5px white solid;
+
 }
-.photo_aside{
+.photo_aside_desktop{
+    display: none;
+}
+.photo_aside_mobile{
+    display: block;
     width: 40%;
     height: 100%;
     overflow: hidden;
 }
-.photo_aside img{
-    height: 111%;
-    width: 160%;
-    position: relative;
-    right: 100px;
-    bottom: 20px;
-}
-.amina2 img{
-    height: 150%;
+.photo_aside_mobile img{
+    height: 100%;
     width: 100%;
-    position: relative;
-    right: 0px;
-    bottom: 90px;
+  
 }
 .note_p2{
     height: 100%;
@@ -258,17 +258,17 @@ header{/*en-tête*/
 
 .note_p2 h2{
     width: 80%;
-    font-size: 2.8em;
+    font-size: 1em;
     margin-top: 25px;
     margin-bottom: 0px;
 }
 .note_p2 p{
-    font-size: 2.4em;
+    font-size: 1em;
     margin-top: 25px;
     margin-bottom: 0px;
 }
 .note_p2 i{
-    font-size: 2em;
+    font-size: 1em;
     color: #f2f2f2;
     margin-top: 140px;
 }
@@ -279,15 +279,15 @@ header{/*en-tête*/
     height: auto;
     margin-right: 0px;
     background-color: white;
+
 }
 .t_heb{
-    padding-left: 3%;
     padding-top: 100px;
     padding-bottom: 50px;
 }
 .t_heb h1{
     width: 100%;
-    font-size: 3.6em;
+    font-size: 1em;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -301,18 +301,19 @@ header{/*en-tête*/
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-right: 0px;
+    padding: 0px;
+
 }
 .cadre_p1{
-    width: 94%;
-    height: 500px;
+    width: 90%;
+    height: 600px;
     margin-bottom: 3.5%; 
-    border: 10px white solid;
+    border: 2px white solid;
     border-radius: 60px 60px 60px 60px;
 }
 .note_p1{
     width: auto;
-    padding-left: 35px;
+    height: 20%;
 }
 .note_p1 h2{
     font-size: 2.8em;
@@ -329,38 +330,25 @@ header{/*en-tête*/
     color: #f2f2f2;
     margin-top: 15px;
 }
-.amina img{
-    width: 105%;
-    height: 400%;
-    position: relative;
-    right: 20px;
-    bottom: 440px;
+.photo_p1_desktop{
+    display: none;
 }
-.mer img{
-    width: 103%;
-    height: 280%;
-    position: relative;
-    right: 20px;
-    bottom: 265px;
-}
-.photo_p1{
+.photo_p1_mobile{
+    display:block;
     height: 60%;
     width: 100%;
     overflow: hidden;
 }
-.photo_p1 img{
-    width: 105%;
-    height: 200%;
-    position: relative;
-    right: 30px;
-    bottom: 150px;
+.photo_p1_mobile img{
+    width: 100%;
+    height: 100%;
 }
 .plus{
     height: auto;
     padding-left: 3%;
 }
 .plus h2{
-    font-size: 2.4em;
+    font-size: 1.4em;
 }
 
 
@@ -373,10 +361,9 @@ header{/*en-tête*/
     height: auto;
     margin-left: 0px;
     padding-right: 0%;
-   
 }
 #activités{
-    font-size: 3.8em;
+    font-size: 1.8em;
     padding-left: 3%;
 }
 .photos_bs{
@@ -394,50 +381,66 @@ header{/*en-tête*/
     margin-bottom: 3.5%;
     border-radius: 60px 60px 60px 60px;
 }
-.g_p{
-height: 100%;
+.g_p_desktop{
+    display: none;
 }
-.g_p img{
+.g_p_mobile{
+    display: block;
+    height: 100%;
+    overflow: hidden;
+}
+.g_p_mobile img{
     width: 100%;
-    height: 150%;
-    position: relative;
-    left:0px;
+    height: 100%;
 }
 .t_a{
     height: 150px;
-    font-size: 2.8em;
+    font-size: 1.8em;
     padding-left: 80px;
 }
 .c_a2{
     width: 100%;
     height: auto;
 }
-.p_p{
-    height: 100%;
+.p_p_desktop{
+    display: none;
 }
-.p_p img{
-    height: 170%;
+.p_p_mobile{
+    display: block;
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+}
+.p_p_mobile img{
+    height: 100%;
     width: 100%;
-    position: relative;
-    bottom: 50px;
 }
-.p_fort{
-   height: 100%;
+.p_fort_desktop{
+    display: none;
 }
-.p_fort img{
-    height: 350%;
-    position: relative;
-    bottom: 400px;
-}
-.p_frioul{
+.p_fort_mobile{
+    display: block;
+    overflow: hidden;
     height: 100%;
 }
-.p_frioul img{
-    height: 150%;
+.p_fort_mobile img{
+    height: 100%;
+    width: 100%;
+}
+.p_frioul_desktop{
+    display: none;
+}
+.p_frioul_mobile{
+    display: block;
+    overflow: hidden;
+    height: 100%;
+}
+.p_frioul_mobile img{
+    height: 100%;
     width: 100%;
 }
 #bot_r{
-    width: 94%;
+    width: 100%;
     height: 500px;
     margin-top: 3.5%;
     margin-bottom: 3.5%;
@@ -446,6 +449,7 @@ height: 100%;
 
 
 footer{/*Pied de page*/
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -455,6 +459,8 @@ footer div{
     width: auto;
     height: auto;
     font-size: 2.4em;
+    padding-left: 0px;
+
 }
 footer li{
     margin-bottom: 30px;
