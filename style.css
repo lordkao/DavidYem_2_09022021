@@ -375,40 +375,28 @@ header{
     width: auto;
     display: flex;
     align-items: center;
-    padding-left: 5%;
+    padding-left: 50px;
 
 }
 .t_heb h1{
-    margin-top: 40px;
+    margin-top: 20px;
     font-size: 1.6em;
     font-weight: bold;
 }
 .sleep{
     width: auto;
-    height: 78%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.part1{
-    height: 50%;
-    width: auto;
+    height: 75%;
+    padding:0px 50px;
     display: flex;
     justify-content: space-between;
-    padding: 0px 30px 0px 30px;
     align-items: center;
+    flex-wrap: wrap;
+
 }
-.part2{
-    height: 50%;
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 30px 0px 30px;
-    align-items: center;
-}
+
 .cadre_p1{
     width: 30%;
-    height:80%;
+    height: 44%;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -419,48 +407,22 @@ header{
     color: black;
 }
 .photo_p1{
-    height: 60%;
+    height: 65%;
     width: 100%;
     overflow: hidden;
 }
 .photo_p1 img{
     width: 100%;
-    height: 120%;
-    position: relative;
-    right: 0px;
-    bottom: 10px;
-}
-.amina{
-    height: 60%;
-    width: 100%;
-    overflow: hidden;
-}
-.amina img{
-    width: 105%;
-    height: 320%;
-    position: relative;
-    right: 5px;
-    bottom: 170px;
-}
-.mer{
-    height: 60%;
-    width: 100%;
-    overflow: hidden;
-}
-.mer img{
-    width: 100%;
-    height: 200%;
-    position: relative;
-    bottom: 80px;
+    height: 100%;
 }
 .note_p1{
-    height: 40%;
+    height: 35%;
     width: 100%;
     background-color: white;
     padding-left: 20px;
 }
 .note_p1 p{
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 10px;
 }
 .note_p1 i{
@@ -487,14 +449,14 @@ header{
 .plus{
     display: flex;
     align-items: center;
-    height: 12%;
-    padding-left: 5%;
+    height: 15%;
+    padding-left: 50px;
 
 }
 .plus h2{
     font-size: 1.6em;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .plus a{
     text-decoration: none;
@@ -512,8 +474,7 @@ header{
     height: 100%;
     background-color: #f2f2f2;
     border-radius: 25px 25px 25px 25px;
-    padding-left: 30px;
-    padding-right:30px;
+    padding:0px 50px;
 
 }
 .top_aside{
@@ -522,13 +483,13 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .t_pop h1{
     font-weight: bold;
     font-size: 1.6em;
-    margin-top: 60px;
+    margin-top: 20px;
+    
 }
 .arrow{
     height: 100%;
@@ -536,7 +497,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:40px;
+    margin-top:20px;
     font-size: 1.6em;
 }
 .p_aside{
@@ -544,16 +505,17 @@ header{
     height: 90%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+
 }
 .p_aside a{
     text-decoration:none;
     color: black;
 }
 .cadre_aside{
-    height: 25%;
-    width: 95%;
+    height: 28%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -561,11 +523,14 @@ header{
     box-shadow: 0px 0px 10px 1px rgb(200,200,200);
     border: 5px white solid;
     overflow: hidden;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 .photo_aside{
     width: 40%;
     height: 100%;
     overflow: hidden;
+    
 }
 .photo_aside img{
     height: 100%;
