@@ -320,20 +320,31 @@ header{/*en-tête*/
     width: 100%;
   
 }
-
+.note_p2{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
 .note_p2 h2{
+    height: auto;
+    width: 80%;
     font-size: 1em;
     margin-top: 15px;
-    font-weight: 800;
+    font-weight: bold;
 }
 .note_p2 p{
+    height: auto;
+    width: auto;
     font-size: 0.9em;
-    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .note_p2 i{
     font-size: 0.7em;
-    margin-top: 40px;
-    border: 1px red solid;
 }
 
 
