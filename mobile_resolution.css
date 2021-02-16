@@ -261,40 +261,47 @@ header{/*en-tête*/
 }
 
 .populaires{/*bloc aside populaires*/
-    width: 100%;
-    height: auto;
-    background-color: #f2f2f2;
-    border-radius: 0px;
-    padding-left: 0px;
-    padding-right:0px;
-    padding-bottom: 60px;
-}
-.top_aside{
-    height: auto;
     width: auto;
-    margin: 0px 0% 0px 0%;
+    height: auto;
+    border-radius: 0px;
+    padding: 0px 20px;
+    border-radius: 0px 0px 0px 0px;
+}
+.top_aside{/*titre aside*/
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
 }
 .t_pop h1{
-    font-size: 1em;
+    height: auto;
+    width: auto;
+    font-size: 1.6em;
     margin-top: 0px;
-    margin-bottom: 0px;
 }
 .arrow{
-    height: 60px;
+    height: auto;
     width: auto;
     margin-top:0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    font-size: 3.6em;
+    font-size: 1.6em;
 }
 
+.p_aside{/*photos aside*/
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
 .cadre_aside{
-    height: 400px;
-    width: 94%;
-    margin-bottom: 3.5%; 
-    border-radius: 60px 60px 60px 60px;
-    border: 5px white solid;
-
+    height: 150px;
+    width: 97%;
+    margin-bottom: 10px;
 }
 .photo_aside_desktop{
     display: none;
@@ -310,27 +317,20 @@ header{/*en-tête*/
     width: 100%;
   
 }
-.note_p2{
-    height: 100%;
-    width: 60%;
-    padding-left: 5%;
-}
 
 .note_p2 h2{
-    width: 80%;
     font-size: 1em;
-    margin-top: 25px;
-    margin-bottom: 0px;
+    margin-top: 15px;
+    font-weight: 800;
+    border: 1px red solid;
 }
 .note_p2 p{
-    font-size: 1em;
-    margin-top: 25px;
-    margin-bottom: 0px;
+    font-size: 0.9em;
+    margin-top: 10px;
 }
 .note_p2 i{
-    font-size: 1em;
-    color: #f2f2f2;
-    margin-top: 140px;
+    font-size: 0.8em;
+    margin-top: 50px;
 }
 
 
