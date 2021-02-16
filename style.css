@@ -425,6 +425,11 @@ header{
     background-color: white;
     padding-left: 20px;
 }
+.note_p1 h2{
+    font-size: 1.3em ;
+    font-weight: bold;
+    margin-top: 10px;
+}
 .note_p1 p{
     font-size: 1.1em;
     margin-top: 10px;
@@ -437,11 +442,7 @@ header{
 #b_star{
     color: #0065FC;
 }
-.note_p1 h2{
-    font-size: 1.3em ;
-    font-weight: bold;
-    margin-top: 10px;
-}
+
 .ec{
     font-weight: bold;
 }

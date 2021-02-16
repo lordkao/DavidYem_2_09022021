@@ -207,6 +207,7 @@ header{/*en-tête*/
 }
 #crit p{
     font-size: 1em;
+    font-weight: 800 ;
 }
 #f{/*contour global de chaques critères*/
     height: 54px;
@@ -222,8 +223,8 @@ header{/*en-tête*/
 .info{/*bloc 5 info*/
     height: auto;
     width: auto;
-    margin-top: 30px;
-    margin-bottom: 45px;
+    margin-top: 20px;
+    margin-bottom: 35px;
     padding-left: 20px;
 }
 .info i{
@@ -273,13 +274,14 @@ header{/*en-tête*/
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 45px;
+    padding-top: 40px;
 }
 .t_pop h1{
     height: auto;
     width: auto;
-    font-size: 1.6em;
+    font-size: 1.4em;
     margin-top: 0px;
+    font-weight: 800;
 }
 .arrow{
     height: auto;
@@ -295,12 +297,13 @@ header{/*en-tête*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 35px;
+    padding-top: 25px;
     padding-bottom: 35px;
 }
 .cadre_aside{
-    height: 150px;
+    height: 140px;
     width: 97%;
+    border-radius: 20px 20px 20px 20px;
     margin-bottom: 10px;
 }
 .photo_aside_desktop{
@@ -322,7 +325,6 @@ header{/*en-tête*/
     font-size: 1em;
     margin-top: 15px;
     font-weight: 800;
-    border: 1px red solid;
 }
 .note_p2 p{
     font-size: 0.9em;
@@ -335,21 +337,24 @@ header{/*en-tête*/
 
 
 .heb{/*partie hébergements*/
-    width: 100%;
+    width: auto;
     height: auto;
     margin-right: 0px;
     background-color: white;
-
+    justify-content: center;
+    padding: 35px 20px ;
+    border-radius: 0px 0px 0px 0px;
 }
-.t_heb{
-    padding-top: 100px;
-    padding-bottom: 50px;
+.t_heb{/*titre*/
+    height: auto;
+    padding: 0px;
+    margin-bottom: 20px;
 }
 .t_heb h1{
-    width: 100%;
-    font-size: 1em;
+    font-size: 1.4em;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-weight: 800;
 }
 
 
@@ -359,36 +364,38 @@ header{/*en-tête*/
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 0px;
-
+    margin-bottom: 20px;
 }
 .cadre_p1{
-    width: 90%;
-    height: 600px;
-    margin-bottom: 3.5%; 
-    border: 2px white solid;
-    border-radius: 60px 60px 60px 60px;
+    width: 97%;
+    height: 180px;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 15px; 
+    margin-top: 0px;
 }
 .note_p1{
     width: auto;
-    height: 20%;
+    padding-left: 10px;
 }
 .note_p1 h2{
-    font-size: 2.8em;
-    margin-top: 20px;
+    width: auto;
+    height: auto;
+    font-size: 1em;
     margin-bottom: 0px;
+    font-weight: 800;
+    margin-top: 10px;
 }
 .note_p1 p{
-    font-size: 2.4em;
-    margin-top: 15px;
-    margin-bottom: 0px;
+    font-size: 0.9em;
+    margin-top: 0px;
 }
 .note_p1 i{
-    font-size: 2em;
+    font-size: 0.8em;
     color: #f2f2f2;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 .photo_p1_desktop{
     display: none;
@@ -405,10 +412,14 @@ header{/*en-tête*/
 }
 .plus{
     height: auto;
-    padding-left: 3%;
+    width: auto;
+    padding-left: 0px;
 }
 .plus h2{
-    font-size: 1.4em;
+    
+    font-size: 1.2em;
+    font-weight: 800;
+    margin-bottom: 0px;
 }
 
 
