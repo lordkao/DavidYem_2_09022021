@@ -207,6 +207,7 @@ header{/*en-tête*/
 }
 #crit p{
     font-size: 1em;
+    font-weight: 800 ;
 }
 #f{/*contour global de chaques critères*/
     height: 54px;
@@ -222,8 +223,8 @@ header{/*en-tête*/
 .info{/*bloc 5 info*/
     height: auto;
     width: auto;
-    margin-top: 30px;
-    margin-bottom: 45px;
+    margin-top: 20px;
+    margin-bottom: 35px;
     padding-left: 20px;
 }
 .info i{
@@ -261,40 +262,49 @@ header{/*en-tête*/
 }
 
 .populaires{/*bloc aside populaires*/
-    width: 100%;
-    height: auto;
-    background-color: #f2f2f2;
-    border-radius: 0px;
-    padding-left: 0px;
-    padding-right:0px;
-    padding-bottom: 60px;
-}
-.top_aside{
-    height: auto;
     width: auto;
-    margin: 0px 0% 0px 0%;
+    height: auto;
+    border-radius: 0px;
+    padding: 0px 20px;
+    border-radius: 0px 0px 0px 0px;
+}
+.top_aside{/*titre aside*/
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
 }
 .t_pop h1{
-    font-size: 1em;
+    height: auto;
+    width: auto;
+    font-size: 1.4em;
     margin-top: 0px;
-    margin-bottom: 0px;
+    font-weight: 800;
 }
 .arrow{
-    height: 60px;
+    height: auto;
     width: auto;
     margin-top:0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    font-size: 3.6em;
+    font-size: 1.6em;
 }
 
+.p_aside{/*photos aside*/
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
 .cadre_aside{
-    height: 400px;
-    width: 94%;
-    margin-bottom: 3.5%; 
-    border-radius: 60px 60px 60px 60px;
-    border: 5px white solid;
-
+    height: 140px;
+    width: 97%;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 10px;
 }
 .photo_aside_desktop{
     display: none;
@@ -310,46 +320,42 @@ header{/*en-tête*/
     width: 100%;
   
 }
-.note_p2{
-    height: 100%;
-    width: 60%;
-    padding-left: 5%;
-}
 
 .note_p2 h2{
-    width: 80%;
     font-size: 1em;
-    margin-top: 25px;
-    margin-bottom: 0px;
+    margin-top: 15px;
+    font-weight: 800;
 }
 .note_p2 p{
-    font-size: 1em;
-    margin-top: 25px;
-    margin-bottom: 0px;
+    font-size: 0.9em;
+    margin-top: 10px;
 }
 .note_p2 i{
-    font-size: 1em;
-    color: #f2f2f2;
-    margin-top: 140px;
+    font-size: 0.7em;
+    margin-top: 40px;
+    border: 1px red solid;
 }
 
 
 .heb{/*partie hébergements*/
-    width: 100%;
+    width: auto;
     height: auto;
     margin-right: 0px;
     background-color: white;
-
+    justify-content: center;
+    padding: 35px 20px ;
+    border-radius: 0px 0px 0px 0px;
 }
-.t_heb{
-    padding-top: 100px;
-    padding-bottom: 50px;
+.t_heb{/*titre*/
+    height: auto;
+    padding: 0px;
+    margin-bottom: 20px;
 }
 .t_heb h1{
-    width: 100%;
-    font-size: 1em;
+    font-size: 1.4em;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-weight: 800;
 }
 
 
@@ -359,36 +365,38 @@ header{/*en-tête*/
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 0px;
-
+    margin-bottom: 20px;
 }
 .cadre_p1{
-    width: 90%;
-    height: 600px;
-    margin-bottom: 3.5%; 
-    border: 2px white solid;
-    border-radius: 60px 60px 60px 60px;
+    width: 97%;
+    height: 180px;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 15px; 
+    margin-top: 0px;
 }
 .note_p1{
     width: auto;
-    height: 20%;
+    padding-left: 10px;
 }
 .note_p1 h2{
-    font-size: 2.8em;
-    margin-top: 20px;
+    width: auto;
+    height: auto;
+    font-size: 1em;
     margin-bottom: 0px;
+    font-weight: 800;
+    margin-top: 10px;
 }
 .note_p1 p{
-    font-size: 2.4em;
-    margin-top: 15px;
-    margin-bottom: 0px;
+    font-size: 0.9em;
+    margin-top: 0px;
 }
 .note_p1 i{
-    font-size: 2em;
+    font-size: 0.8em;
     color: #f2f2f2;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 .photo_p1_desktop{
     display: none;
@@ -405,10 +413,14 @@ header{/*en-tête*/
 }
 .plus{
     height: auto;
-    padding-left: 3%;
+    width: auto;
+    padding-left: 0px;
 }
 .plus h2{
-    font-size: 1.4em;
+    
+    font-size: 1.2em;
+    font-weight: 800;
+    margin-bottom: 0px;
 }
 
 
@@ -417,14 +429,17 @@ header{/*en-tête*/
 
 
 .bot_section{/* bloc section activités*/
-    width: 100%;
+    width: auto;
     height: auto;
-    margin-left: 0px;
-    padding-right: 0%;
+    margin: 20px 0px 0px 0px;
+    padding: 0px 20px 0px 20px ;
+    border: 1px red solid;
 }
 #activités{
-    font-size: 1.8em;
-    padding-left: 3%;
+    font-size: 1.4em;
+    font-weight: 800;
+    padding-left: 0px;
+    margin-bottom: 30px;
 }
 .photos_bs{
     width: 100%;
@@ -435,18 +450,23 @@ header{/*en-tête*/
     align-items: center;
 }
 .c_a{
-    width: 94%;
-    height: 500px;
-    margin-top: 3.5%;
-    margin-bottom: 3.5%;
-    border-radius: 60px 60px 60px 60px;
+    width: auto;
+    height: 180px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+.c_a2{
+    width: 100%;
+    height: auto;
 }
 .g_p_desktop{
     display: none;
 }
 .g_p_mobile{
     display: block;
-    height: 100%;
+    width:auto;
+    height: 75%;
     overflow: hidden;
 }
 .g_p_mobile img{
@@ -454,20 +474,22 @@ header{/*en-tête*/
     height: 100%;
 }
 .t_a{
-    height: 150px;
-    font-size: 1.8em;
-    padding-left: 80px;
-}
-.c_a2{
     width: 100%;
-    height: auto;
+    height: 25%;
+    padding-left: 0px;
 }
+.t_a h4{
+    font-size: 1em;
+    font-weight: 800;
+    padding-left: 20px;
+}
+
 .p_p_desktop{
     display: none;
 }
 .p_p_mobile{
     display: block;
-    height: 100%;
+    height: 75%;
     width: auto;
     overflow: hidden;
 }
@@ -480,8 +502,9 @@ header{/*en-tête*/
 }
 .p_fort_mobile{
     display: block;
+    height: 75%;
     overflow: hidden;
-    height: 100%;
+    
 }
 .p_fort_mobile img{
     height: 100%;
@@ -492,19 +515,21 @@ header{/*en-tête*/
 }
 .p_frioul_mobile{
     display: block;
+    height: 75%;
     overflow: hidden;
-    height: 100%;
+    
 }
 .p_frioul_mobile img{
     height: 100%;
     width: 100%;
 }
 #bot_r{
-    width: 100%;
-    height: 500px;
-    margin-top: 3.5%;
-    margin-bottom: 3.5%;
-    border-radius: 60px 60px 60px 60px;
+    width: auto;
+    height: 180px;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 20px 20px;
+
 }
 
 
