@@ -396,7 +396,7 @@ header{/*en-tête*/
 .note_p1 i{
     font-size: 0.8em;
     color: #f2f2f2;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .photo_p1_desktop{
     display: none;
@@ -433,7 +433,7 @@ header{/*en-tête*/
     height: auto;
     margin: 20px 0px 0px 0px;
     padding: 0px 20px 0px 20px ;
-    border: 1px red solid;
+
 }
 #activités{
     font-size: 1.4em;
@@ -448,6 +448,7 @@ header{/*en-tête*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 .c_a{
     width: auto;
@@ -529,26 +530,34 @@ header{/*en-tête*/
     margin-top: 0%;
     margin-bottom: 20px;
     border-radius: 20px 20px 20px 20px;
-
 }
 
 
 footer{/*Pied de page*/
-    width: 100%;
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: 30px;
+    padding: 0px 20px 50px 20px;
 }
 footer div{
     width: auto;
     height: auto;
-    font-size: 2.4em;
+    font-size: 1em;
     padding-left: 0px;
+}
+footer ul{
+    margin-bottom: 0px;
+}
+footer h4{
+    font-weight: 800;
+    margin-top: 50px;
 
 }
 footer li{
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 .bv1{
     display: none;
