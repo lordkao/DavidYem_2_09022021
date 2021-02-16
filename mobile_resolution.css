@@ -331,8 +331,9 @@ header{/*en-tête*/
     margin-top: 10px;
 }
 .note_p2 i{
-    font-size: 0.8em;
-    margin-top: 50px;
+    font-size: 0.7em;
+    margin-top: 40px;
+    border: 1px red solid;
 }
 
 
@@ -428,14 +429,17 @@ header{/*en-tête*/
 
 
 .bot_section{/* bloc section activités*/
-    width: 100%;
+    width: auto;
     height: auto;
-    margin-left: 0px;
-    padding-right: 0%;
+    margin: 20px 0px 0px 0px;
+    padding: 0px 20px 0px 20px ;
+    border: 1px red solid;
 }
 #activités{
-    font-size: 1.8em;
-    padding-left: 3%;
+    font-size: 1.4em;
+    font-weight: 800;
+    padding-left: 0px;
+    margin-bottom: 30px;
 }
 .photos_bs{
     width: 100%;
@@ -446,18 +450,23 @@ header{/*en-tête*/
     align-items: center;
 }
 .c_a{
-    width: 94%;
-    height: 500px;
-    margin-top: 3.5%;
-    margin-bottom: 3.5%;
-    border-radius: 60px 60px 60px 60px;
+    width: auto;
+    height: 180px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+.c_a2{
+    width: 100%;
+    height: auto;
 }
 .g_p_desktop{
     display: none;
 }
 .g_p_mobile{
     display: block;
-    height: 100%;
+    width:auto;
+    height: 75%;
     overflow: hidden;
 }
 .g_p_mobile img{
@@ -465,20 +474,22 @@ header{/*en-tête*/
     height: 100%;
 }
 .t_a{
-    height: 150px;
-    font-size: 1.8em;
-    padding-left: 80px;
-}
-.c_a2{
     width: 100%;
-    height: auto;
+    height: 25%;
+    padding-left: 0px;
 }
+.t_a h4{
+    font-size: 1em;
+    font-weight: 800;
+    padding-left: 20px;
+}
+
 .p_p_desktop{
     display: none;
 }
 .p_p_mobile{
     display: block;
-    height: 100%;
+    height: 75%;
     width: auto;
     overflow: hidden;
 }
@@ -491,8 +502,9 @@ header{/*en-tête*/
 }
 .p_fort_mobile{
     display: block;
+    height: 75%;
     overflow: hidden;
-    height: 100%;
+    
 }
 .p_fort_mobile img{
     height: 100%;
@@ -503,19 +515,21 @@ header{/*en-tête*/
 }
 .p_frioul_mobile{
     display: block;
+    height: 75%;
     overflow: hidden;
-    height: 100%;
+    
 }
 .p_frioul_mobile img{
     height: 100%;
     width: 100%;
 }
 #bot_r{
-    width: 100%;
-    height: 500px;
-    margin-top: 3.5%;
-    margin-bottom: 3.5%;
-    border-radius: 60px 60px 60px 60px;
+    width: auto;
+    height: 180px;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 20px 20px;
+
 }
 
 

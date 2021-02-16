@@ -290,7 +290,7 @@ header{
     border-radius: 32px 32px 32px 32px;
     background-color: #DEEBFF;
     position: relative;
-    right: 2px;
+    right: 3px;
     
 }
 #circle i{
@@ -616,7 +616,6 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border-radius: 25px 25px 25px 25px;
 }
 .g_p_desktop{
     width: 100%;
