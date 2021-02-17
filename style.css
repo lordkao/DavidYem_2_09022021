@@ -417,6 +417,9 @@ header{
 .photo_p1_small{
     display: none;
 }
+.photo_p1_medium{
+    display: none;
+}
 .note_p1{
     height: 40%;
     width: 100%;
@@ -541,6 +544,9 @@ header{
 .photo_aside_small{
     display: none;
 }
+.photo_aside_medium{
+    display: none;
+}
 .note_p2{
     height: 100%;
     width: 60%;
@@ -639,6 +645,9 @@ header{
 .g_p_small{
     display: none;
 }
+.g_p_medium{
+    display: none;
+}
 .cp_a{
     width: 100%;
     height: 240px;
@@ -660,6 +669,9 @@ header{
     height: 100%;
 }
 .p_p_small{
+    display: none;
+}
+.p_p_medium{
     display: none;
 }
 .t_a{
@@ -701,6 +713,9 @@ header{
 .p_fort_small{
     display: none;
 }
+.p_fort_medium{
+    display: none;
+}
 .p_frioul_xlarge{
     width: 100%;
     height: 140px;
@@ -713,6 +728,9 @@ header{
     bottom: 28px;
 }
 .p_frioul_small{
+    display: none;
+}
+.p_frioul_medium{
     display: none;
 }
 .cp_frioul{
