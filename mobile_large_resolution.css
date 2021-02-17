@@ -6,7 +6,7 @@ body{
 
 header{/*en-tête*/
     height: auto;
-    width: 100%;
+    width: auto;
     padding: 0px;
     flex-wrap: wrap;
 
@@ -252,20 +252,21 @@ header{/*en-tête*/
 }
 
 .top_s{/*section*/
-    width: 100%; 
+    width: auto; 
     height: auto;
     display: flex;
     flex-direction:column-reverse;
     justify-content: center;
     align-items: center;
-    margin: 0%;
+    padding: 0px;
 }
 
 .populaires{/*bloc aside populaires*/
-    width: auto;
+    width: 100%;
     height: auto;
     border-radius: 0px;
-    padding: 0px 20px;
+    margin: 0px;
+    padding: 0px 0px;
     border-radius: 0px 0px 0px 0px;
 }
 .top_aside{/*titre aside*/
@@ -275,6 +276,7 @@ header{/*en-tête*/
     justify-content: space-between;
     align-items: center;
     padding-top: 40px;
+    
 }
 .t_pop h1{
     height: auto;
@@ -282,27 +284,29 @@ header{/*en-tête*/
     font-size: 1.4em;
     margin-top: 0px;
     font-weight: 800;
+    margin-left: 20px;
 }
 .arrow{
     height: auto;
     width: auto;
     margin-top:0px;
     font-size: 1.6em;
+    margin-right: 20px;
 }
 
 .p_aside{/*photos aside*/
-    width: 100%;
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 25px;
-    padding-bottom: 35px;
+    padding: 25px 20px 35px 20px;
+   
 }
 .cadre_aside{
     height: 140px;
-    width: 97%;
+    width: 100%;
     border-radius: 20px 20px 20px 20px;
     margin-bottom: 10px;
 }
@@ -324,7 +328,7 @@ header{/*en-tête*/
     height: 100%;
     width: 60%;
     background-color: white;
-    padding-left: 20px;
+    padding-left: 0px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -334,17 +338,24 @@ header{/*en-tête*/
     height: auto;
     width: 80%;
     font-size: 1em;
+    margin-left: 20px;
     margin-top: 15px;
     font-weight: bold;
 }
 .note_p2 p{
     height: auto;
     width: auto;
+    margin-left: 20px;
     font-size: 0.9em;
     margin-bottom: 30px;
 }
 .note_p2 i{
     font-size: 0.7em;
+    margin-right: 1px;
+
+}
+.etoiles {
+    margin-left: 20px;
 }
 
 

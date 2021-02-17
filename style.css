@@ -54,7 +54,7 @@ body{
 
 
 header{
-    width: 96%;
+    width: auto;
     padding: 0% 1% 0% 3%;
 }
 
@@ -353,11 +353,9 @@ header{
 .top_s{
     display: flex;
     align-items: center;
-    width: 96%;
+    width: auto;
     height: 800px;
-    margin-left: 2%;
-    margin-right: 2%;
-
+    padding: 0% 2% 0% 2%;
 }
 
 /*partie hébergements*/
@@ -549,8 +547,9 @@ header{
     background-color: white;
     padding-left: 20px;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    justify-content: space-between;
+    
 }
 .note_p2 h2{
     width: 85%;
@@ -579,7 +578,7 @@ header{
 
 
 .bot_section{/* bloc section activités*/
-    width: 96%;
+    width: auto;
     height: 650px;
     display: flex;
     flex-direction: column;
@@ -730,8 +729,8 @@ header{
 
 
 footer{/*pied de page*/
-    width: 100%;
-    height: 250px;
+    width: auto;
+    height: auto;
     margin-top: 50px;
     display: flex;
     justify-content: flex-start;
@@ -743,7 +742,6 @@ footer div{
     height: 100%;
     display: flex;
     flex-direction: column;
-    font-size: 1.2em;
     padding-left: 40px;
 }
 footer ul{
@@ -760,6 +758,8 @@ footer h4{
 }
 footer li{
     margin-top: 20px;
+    font-size: 1.2em;
+
 }
 .bv1{
     height: 100%;
