@@ -407,16 +407,16 @@ header{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.photo_p1_desktop{
+.photo_p1_xlarge{
     height: 60%;
     width: 100%;
     overflow: hidden;
 }
-.photo_p1_desktop img{
+.photo_p1_xlarge img{
     width: 100%;
     height: 100%;
 }
-.photo_p1_mobile{
+.photo_p1_small{
     display: none;
 }
 .note_p1{
@@ -530,17 +530,17 @@ header{
     overflow: hidden;
     margin-bottom: 40px;
 }
-.photo_aside_desktop{
+.photo_aside_xlarge{
     width: 40%;
     height: 100%;
     overflow: hidden;
     
 }
-.photo_aside_desktop img{
+.photo_aside_xlarge img{
     height: 100%;
     width: 100%;
 }
-.photo_aside_mobile{
+.photo_aside_small{
     display: none;
 }
 .note_p2{
@@ -548,22 +548,33 @@ header{
     width: 60%;
     background-color: white;
     padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .note_p2 h2{
-    width: 80%;
+    width: 85%;
     font-weight: bold;
     font-size: 1.3em;
     margin-top: 20px;
+
 }
 .note_p2 p{
-    margin-top: 10px;
     font-size: 1.1em;
+    margin-bottom: 50px;
+
+}
+.etoiles{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+
 }
 .note_p2 i{
     font-size: 0.9em;
     color: #f2f2f2;
-    margin-top: 60px;
-
 }/*fin bloc aside populaire*/
 
 
@@ -617,16 +628,16 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.g_p_desktop{
+.g_p_xlarge{
     width: 100%;
     height: 90%;
     overflow: hidden;
 }
-.g_p_desktop img{
+.g_p_xlarge img{
     width: 100%;
     height: 100%;
 }
-.g_p_mobile{
+.g_p_small{
     display: none;
 }
 .cp_a{
@@ -640,16 +651,16 @@ header{
     box-shadow: 0px 0px 10px 1px rgb(200,200,200);
     overflow: hidden;
 }
-.p_p_desktop{
+.p_p_xlarge{
     width: 100%;
     height: 180px;
     overflow: hidden;
 }
-.p_p_desktop img{
+.p_p_xlarge img{
     width: 100%;
     height: 100%;
 }
-.p_p_mobile{
+.p_p_small{
     display: none;
 }
 .t_a{
@@ -676,33 +687,33 @@ header{
     box-shadow: 0px 0px 10px 1px rgb( 200, 200, 200);
     overflow: hidden;
 }
-.p_fort_desktop{
+.p_fort_xlarge{
     width: 100%;
     height: 240px;
     overflow: hidden;
 }
-.p_fort_desktop img{
+.p_fort_xlarge img{
     width: 100%;
     height: 120%;
     position: relative;
     bottom: 40px;
    
 }
-.p_fort_mobile{
+.p_fort_small{
     display: none;
 }
-.p_frioul_desktop{
+.p_frioul_xlarge{
     width: 100%;
     height: 140px;
     overflow: hidden;
 }
-.p_frioul_desktop img{
+.p_frioul_xlarge img{
     width: 100%;
     height: 120%;
     position: relative;
     bottom: 28px;
 }
-.p_frioul_mobile{
+.p_frioul_small{
     display: none;
 }
 .cp_frioul{

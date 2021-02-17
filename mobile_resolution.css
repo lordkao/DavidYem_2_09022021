@@ -306,34 +306,45 @@ header{/*en-tête*/
     border-radius: 20px 20px 20px 20px;
     margin-bottom: 10px;
 }
-.photo_aside_desktop{
+.photo_aside_xlarge{
     display: none;
 }
-.photo_aside_mobile{
+.photo_aside_small{
     display: block;
     width: 40%;
     height: 100%;
     overflow: hidden;
 }
-.photo_aside_mobile img{
+.photo_aside_small img{
     height: 100%;
     width: 100%;
   
 }
-
+.note_p2{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
 .note_p2 h2{
+    height: auto;
+    width: 80%;
     font-size: 1em;
     margin-top: 15px;
-    font-weight: 800;
+    font-weight: bold;
 }
 .note_p2 p{
+    height: auto;
+    width: auto;
     font-size: 0.9em;
-    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .note_p2 i{
     font-size: 0.7em;
-    margin-top: 40px;
-    border: 1px red solid;
 }
 
 
@@ -398,16 +409,16 @@ header{/*en-tête*/
     color: #f2f2f2;
     margin-top: 10px;
 }
-.photo_p1_desktop{
+.photo_p1_xlarge{
     display: none;
 }
-.photo_p1_mobile{
+.photo_p1_small{
     display:block;
     height: 60%;
     width: 100%;
     overflow: hidden;
 }
-.photo_p1_mobile img{
+.photo_p1_small img{
     width: 100%;
     height: 100%;
 }
@@ -461,16 +472,16 @@ header{/*en-tête*/
     width: 100%;
     height: auto;
 }
-.g_p_desktop{
+.g_p_xlarge{
     display: none;
 }
-.g_p_mobile{
+.g_p_small{
     display: block;
     width:auto;
     height: 75%;
     overflow: hidden;
 }
-.g_p_mobile img{
+.g_p_small img{
     width: 100%;
     height: 100%;
 }
@@ -485,42 +496,42 @@ header{/*en-tête*/
     padding-left: 20px;
 }
 
-.p_p_desktop{
+.p_p_xlarge{
     display: none;
 }
-.p_p_mobile{
+.p_p_small{
     display: block;
     height: 75%;
     width: auto;
     overflow: hidden;
 }
-.p_p_mobile img{
+.p_p_small img{
     height: 100%;
     width: 100%;
 }
-.p_fort_desktop{
+.p_fort_xlarge{
     display: none;
 }
-.p_fort_mobile{
+.p_fort_small{
+    display: block;
+    height: 75%;
+    overflow: hidden;
+}
+
+.p_fort_small img{
+    height: 100%;
+    width: 100%;
+}
+.p_frioul_xlarge{
+    display: none;
+}
+.p_frioul_small{
     display: block;
     height: 75%;
     overflow: hidden;
     
 }
-.p_fort_mobile img{
-    height: 100%;
-    width: 100%;
-}
-.p_frioul_desktop{
-    display: none;
-}
-.p_frioul_mobile{
-    display: block;
-    height: 75%;
-    overflow: hidden;
-    
-}
-.p_frioul_mobile img{
+.p_frioul_small img{
     height: 100%;
     width: 100%;
 }
@@ -557,7 +568,7 @@ footer h4{
 
 }
 footer li{
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 .bv1{
     display: none;
