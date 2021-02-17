@@ -195,7 +195,7 @@ header{/*en-tête*/
 #circle{
     height: 56px;
     width: 54px;
-    font-size: 1em;
+    font-size: 1.3em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -350,12 +350,13 @@ header{/*en-tête*/
     margin-bottom: 30px;
 }
 .note_p2 i{
-    font-size: 0.7em;
+    font-size: 0.8em;
     margin-right: 1px;
 
 }
-.etoiles {
+.etoiles_aside{
     margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 
@@ -419,6 +420,9 @@ header{/*en-tête*/
     font-size: 0.8em;
     color: #f2f2f2;
     margin-top: 10px;
+}
+.etoiles_heb{
+
 }
 .photo_p1_xlarge{
     display: none;
