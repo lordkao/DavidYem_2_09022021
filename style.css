@@ -55,7 +55,7 @@ body{
 
 header{
     width: auto;
-    padding: 0% 1% 0% 3%;
+    padding: 0% 2% 0% 2%;
 }
 
 /*bloc 1 logo et nav */
@@ -149,12 +149,12 @@ header{
 
 /*bloc 2 annonce*/
 .annonce{
-    width: 100%;
+    width: auto;
     height: auto;
 
 }.annonce h1{
     margin-top: 20px;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 1.6em;
 
 }
