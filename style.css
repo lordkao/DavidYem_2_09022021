@@ -404,12 +404,12 @@ header{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.photo_p1_xlarge{
+.photo_p1_large{
     height: 60%;
     width: 100%;
     overflow: hidden;
 }
-.photo_p1_xlarge img{
+.photo_p1_large img{
     width: 100%;
     height: 100%;
 }
@@ -427,7 +427,7 @@ header{
 }
 .note_p1 h2{
     font-size: 1.3em ;
-    font-weight: bold;
+    font-weight: 800;
     margin-top: 10px;
 }
 .note_p1 p{
@@ -533,13 +533,13 @@ header{
     overflow: hidden;
     margin-bottom: 40px;
 }
-.photo_aside_xlarge{
+.photo_aside_large{
     width: 40%;
     height: 100%;
     overflow: hidden;
     
 }
-.photo_aside_xlarge img{
+.photo_aside_large img{
     height: 100%;
     width: 100%;
 }

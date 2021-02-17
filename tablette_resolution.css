@@ -311,7 +311,7 @@ header{/*en-tête*/
     margin-left: 0px;
 
 }
-.photo_aside_xlarge{
+.photo_aside_large{
     display: none;
 }
 .photo_aside_medium{
@@ -432,7 +432,7 @@ header{/*en-tête*/
 .etoiles_heb{
     margin-left: 30px;
 }
-.photo_p1_xlarge{
+.photo_p1_large{
     display: none;
 }
 .photo_p1_medium{

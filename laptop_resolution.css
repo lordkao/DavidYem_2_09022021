@@ -165,3 +165,178 @@ header{
     font-size: 0.8em;
 }
 /*fin  du bloc 5*/
+
+/*section*/
+.top_s{
+    height: 400px;
+}
+
+/*partie hébergements*/
+.heb{
+    width: 65%;
+    padding: 0% 30px;
+    margin-right: 2%;
+}
+/*lieu d'hébergements*/
+.t_heb{ 
+    padding-left: 0px;
+
+}
+.t_heb h1{
+    margin-top: 30px;
+    font-size: 1.2em;
+
+}
+.sleep{
+    padding: 0px 0px;
+
+}
+
+.cadre_p1{
+    width: 30%;
+    height: 43%;
+    border-radius: 15px 15px 15px 15px;
+    border: 3px white solid;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.note_p1{
+    padding-left: 10px;
+}
+.note_p1 h2{
+    font-size: 0.7em ;
+    margin-top: 7px;
+}
+.note_p1 p{
+    font-size: 0.7em;
+    margin-top: 3px;
+}
+.note_p1 i{
+    font-size: 0.5em;
+    color: #f2f2f2;
+    margin-top: 3px;
+}
+
+.€{
+    font-size: 1em;
+}
+.plus{
+    padding-left: 0px;
+}
+.plus h2{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+/*fin bloc hébergements*/
+
+
+/*bloc aside populaires*/
+.populaires{/*titre*/
+    width: 27%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 25px 25px 25px 25px;
+    padding:0px 50px;
+}
+.top_aside{
+    height: 12%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.t_pop h1{
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-top: 40px;
+    
+}
+.arrow{
+    height: 100%;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+    font-size: 1.6em;
+}
+.p_aside{/*photos aside*/
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.p_aside a{
+    text-decoration:none;
+    color: black;
+}
+.cadre_aside{
+    height: 27%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 0px 0px 10px 1px rgb(200,200,200);
+    border: 5px white solid;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.photo_aside_xlarge{
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+.photo_aside_xlarge img{
+    height: 100%;
+    width: 100%;
+}
+.photo_aside_small{
+    display: none;
+}
+.photo_aside_medium{
+    display: none;
+}
+.note_p2{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.note_p2 h2{
+    width: 85%;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 20px;
+
+}
+.note_p2 p{
+    font-size: 1.1em;
+    margin-bottom: 50px;
+
+}
+.etoiles_aside{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+.note_p2 i{
+    font-size: 0.9em;
+    color: #f2f2f2;
+}/*fin bloc aside populaire*/
