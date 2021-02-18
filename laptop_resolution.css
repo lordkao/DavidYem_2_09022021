@@ -1,0 +1,452 @@
+
+header{
+}
+
+/*bloc 1 logo et nav */
+.top_header{
+    height: 70px;
+
+}
+.top_header a{
+    width: 100%;
+    font-size: 0.9em;
+
+}
+.logo_reservia{
+    flex: 1.5;
+
+}
+.logo_reservia img{
+    width: 50%;
+
+}
+.nh{
+    flex: 1.2;
+
+}
+.na{
+    flex: 1.2;
+
+}
+.ni{
+    flex: 1.2;
+
+}
+.bloc_vide{
+    flex: 4;
+
+}
+
+.h:hover{
+    border-top: 2px#0065FC solid;
+}
+
+.a:hover{
+    border-top: 2px black solid;
+
+}      
+
+.i:hover{
+    border-top: 2px#0065FC solid;
+}/*fin du bloc 1*/
+
+
+/*bloc 2 annonce*/
+.annonce h1{
+    margin-top: 10px;
+    font-size: 1em;
+
+}
+.annonce p{
+    font-size: 0.8em;
+
+}
+/*fin du bloc 2*/
+
+/*bloc 3 barre de recherche*/
+.search{
+    height: 50px;
+    margin-bottom: 30px;
+}
+.barre_de_recherche{
+    width: 37%;
+    height: auto;
+    border-radius: 15px 15px 15px 15px;
+}
+.barre_de_recherche label{
+    border-radius: 15px 0px 0px 15px;
+}
+.logo_pos{
+     font-size: 1em;
+}
+.formulaire{
+    width: 55%;
+
+}
+.formulaire input{
+    font-size: 0.9em;
+    height: 100%;
+    width: 100%;
+
+}
+.formulaire input::placeholder{
+    padding-left: 5px;
+    font-size: 0.9em;
+}
+.b_recherche{
+    width: 35%;
+    font-size: 0.9em;
+    border-radius: 0 15px 15px 0;
+
+
+}
+/*fin du bloc 3*/
+
+/*bloc 4 les filtres*/
+.filtres{
+    height: 40px;
+
+}
+.fi{
+    font-size: 1.2em;
+    padding-left: 5px;
+    margin-right: 10px;
+
+}
+.critères{
+    width: auto;
+    height: 100%;
+
+}
+.critères a{
+    height: 100%;
+    margin-bottom: 3px;
+    width: auto;
+}
+.critères a:hover{
+    font-size: 1.2em;
+}
+#circle{
+    height: 44px;
+    width: 44px;
+    font-size: 1em;
+    border-radius: 22px 22px 22px 22px;
+    
+}
+#crit p{
+    font-size: 0.8em;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+#f{/*contour global de chaques critères*/
+    border-radius: 20px 20px 20px 20px;
+    margin-right: 10px;
+}
+/*fin du bloc 4*/
+
+/*bloc 5 info*/
+.info{
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.info i{
+    width: 20px;
+    height: 20px;
+    font-size: 0.8em;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 10px;
+}
+.info p{
+    height: auto;
+    width: auto;
+    font-size: 0.8em;
+}
+/*fin  du bloc 5*/
+
+/*section*/
+.top_s{
+    height: 450px;
+
+}
+
+/*partie hébergements*/
+.heb{
+    width: 60%;
+    padding: 0% 25px;
+    margin-right: 0%;
+
+}
+/*lieu d'hébergements*/
+.t_heb{ 
+    height: 12%;
+    width: 100%;
+    padding-left: 0px;
+
+}
+.t_heb h1{
+    margin-top: 30px;
+    font-size: 1em;
+
+}
+.sleep{
+    height: 74%;
+    padding: 0px 0px;
+
+}
+
+.cadre_p1{
+    width: 30%;
+    height: 43%;
+    border-radius: 15px 15px 15px 15px;
+    border: 3px white solid;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.note_p1{
+    padding-left: 10px;
+}
+.note_p1 h2{
+    font-size: 0.9em ;
+    margin-top: 7px;
+}
+.note_p1 p{
+    font-size: 0.7em;
+    margin-top: 3px;
+}
+.note_p1 i{
+    font-size: 0.6em;
+    color: #f2f2f2;
+    margin-top: 0px;
+
+}
+
+.€{
+    font-size: 1em;
+}
+.plus{
+    height: 14%;
+    padding-left: 0px;
+
+}
+.plus h2{
+    font-size: 1.2em;
+    margin-bottom: 0px;
+}
+/*fin bloc hébergements*/
+
+
+/*bloc aside populaires*/
+.populaires{/*titre*/
+    width: 27%;
+    height: 100%;
+    padding: 0px 25px;
+
+}
+.top_aside{
+    height: 12%;
+    width: 100%;
+
+}
+
+.t_pop h1{
+    height: 100%;
+    font-size: 1em;
+    margin-top: 30px;
+    padding-top: 0px;
+}
+.arrow{
+    width: auto;
+    height: 100%;
+    margin-top: 30px;
+    font-size: 1em;
+}
+.p_aside{/*photos aside*/
+    width: 100%;
+    height: 82%;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.cadre_aside{
+    height: 30%;
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+    border: 3px white solid;
+    margin-bottom: 0px;
+
+}
+.note_p2{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    padding-left: 10px;
+}
+.note_p2 h2{
+    width: 85%;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.note_p2 p{
+    font-size: 0.7em;
+    margin-bottom: 40px;
+
+}
+.etoiles_aside{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: left;
+
+}
+.note_p2 i{
+    font-size: 0.6em;
+
+}/*fin bloc aside populaire*/
+
+
+.bot_section{/* bloc section activités*/
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 60px;
+}
+.t_bot_section h1{
+    font-size: 1.1em;
+}
+.t_bot_section{
+    width: auto;
+    height: 60px;
+}
+.photos_bs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.photos_bs a{
+    text-decoration: none;
+    color: black;
+}
+.c_a{
+    width: 23%;
+    height: 450px;
+
+}
+.c_a2{
+    width: 23%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.g_p_large{
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+}
+.g_p_large img{
+    width: 100%;
+    height: 100%;
+}
+.cp_a{
+    width: 100%;
+    height: 200px;
+
+}
+.p_p_large{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+.p_p_large img{
+    width: 100%;
+    height: 100%;
+}
+
+.t_a h4{
+    font-size: 1em;
+    
+}
+.cp_fort{
+    width: 100%;
+    height: 230px;
+
+}
+.p_fort_large{
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+}
+.p_fort_large img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 0px;
+   
+}
+.p_frioul_large{
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+}
+.p_frioul_large img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 0px;
+}
+.cp_frioul{
+    width: 100%;
+    height: 170px;
+
+}
+.t_a{
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+/*fin du bloc section activités*/
+
+footer{/*pied de page*/
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+footer div{
+    height: 100px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+footer ul{
+    margin-bottom: 20px;
+
+}
+footer h4{
+    font-size: 0.9em;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+footer li{
+    margin-top: 10px;
+    font-size: 0.9em;
+}
