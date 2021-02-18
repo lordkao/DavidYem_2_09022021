@@ -310,7 +310,7 @@ header{/*en-tête*/
     border-radius: 20px 20px 20px 20px;
     margin-bottom: 10px;
 }
-.photo_aside_xlarge{
+.photo_aside_large{
     display: none;
 }
 .photo_aside_small{
@@ -424,7 +424,7 @@ header{/*en-tête*/
 .etoiles_heb{
 
 }
-.photo_p1_xlarge{
+.photo_p1_large{
     display: none;
 }
 .photo_p1_small{
@@ -487,7 +487,7 @@ header{/*en-tête*/
     width: 100%;
     height: auto;
 }
-.g_p_xlarge{
+.g_p_large{
     display: none;
 }
 .g_p_small{
@@ -511,7 +511,7 @@ header{/*en-tête*/
     padding-left: 20px;
 }
 
-.p_p_xlarge{
+.p_p_large{
     display: none;
 }
 .p_p_small{
@@ -524,7 +524,7 @@ header{/*en-tête*/
     height: 100%;
     width: 100%;
 }
-.p_fort_xlarge{
+.p_fort_large{
     display: none;
 }
 .p_fort_small{
@@ -537,7 +537,7 @@ header{/*en-tête*/
     height: 100%;
     width: 100%;
 }
-.p_frioul_xlarge{
+.p_frioul_large{
     display: none;
 }
 .p_frioul_small{

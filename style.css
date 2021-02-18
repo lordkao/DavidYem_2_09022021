@@ -635,12 +635,12 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.g_p_xlarge{
+.g_p_large{
     width: 100%;
     height: 90%;
     overflow: hidden;
 }
-.g_p_xlarge img{
+.g_p_large img{
     width: 100%;
     height: 100%;
 }
@@ -661,12 +661,12 @@ header{
     box-shadow: 0px 0px 10px 1px rgb(200,200,200);
     overflow: hidden;
 }
-.p_p_xlarge{
+.p_p_large{
     width: 100%;
     height: 180px;
     overflow: hidden;
 }
-.p_p_xlarge img{
+.p_p_large img{
     width: 100%;
     height: 100%;
 }
@@ -700,12 +700,12 @@ header{
     box-shadow: 0px 0px 10px 1px rgb( 200, 200, 200);
     overflow: hidden;
 }
-.p_fort_xlarge{
+.p_fort_large{
     width: 100%;
     height: 240px;
     overflow: hidden;
 }
-.p_fort_xlarge img{
+.p_fort_large img{
     width: 100%;
     height: 120%;
     position: relative;
@@ -718,12 +718,12 @@ header{
 .p_fort_medium{
     display: none;
 }
-.p_frioul_xlarge{
+.p_frioul_large{
     width: 100%;
     height: 140px;
     overflow: hidden;
 }
-.p_frioul_xlarge img{
+.p_frioul_large img{
     width: 100%;
     height: 120%;
     position: relative;

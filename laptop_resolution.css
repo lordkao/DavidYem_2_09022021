@@ -92,7 +92,6 @@ header{
 .formulaire input::placeholder{
     padding-left: 5px;
     font-size: 0.9em;
-
 }
 .b_recherche{
     width: 35%;
