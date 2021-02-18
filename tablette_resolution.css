@@ -525,7 +525,7 @@ header{/*en-tête*/
     padding-left: 0px;
 }
 
-.p_p_xlarge{
+.p_p_large{
     display: none;
 }
 .p_p_medium{
@@ -538,7 +538,7 @@ header{/*en-tête*/
     height: 100%;
     width: 100%;
 }
-.p_fort_xlarge{
+.p_fort_large{
     display: none;
 }
 .p_fort_medium{
@@ -553,7 +553,7 @@ header{/*en-tête*/
     position: relative;
     bottom: 50px;
 }
-.p_frioul_xlarge{
+.p_frioul_large{
     display: none;
 }
 .p_frioul_medium{
