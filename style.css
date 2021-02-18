@@ -352,6 +352,7 @@ header{
 .top_s{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: auto;
     height: 800px;
     padding: 0% 2% 0% 2%;
@@ -378,7 +379,7 @@ header{
 .t_heb h1{
     margin-top: 40px;
     font-size: 1.6em;
-    font-weight: bold;
+    font-weight: 800;
 }
 .sleep{
     width: auto;
@@ -495,7 +496,7 @@ header{
 }
 
 .t_pop h1{
-    font-weight: bold;
+    font-weight: 800;
     font-size: 1.6em;
     margin-top: 40px;
     
@@ -781,7 +782,6 @@ footer li{
 
 }
 .bv1{
-    height: 100%;
     width:5%;
 }
 .bv2{
