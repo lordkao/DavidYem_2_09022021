@@ -22,7 +22,6 @@ header{/*en-tête*/
     justify-content: center;
     align-items: center;
     font-size: 1.8em;
-    font-weight:600;
     border-bottom: 5px #f2f2f2 solid;
 
 }
@@ -35,8 +34,8 @@ header{/*en-tête*/
 
 }
 .logo_reservia img{
-    height: 80%;
-    width: 60%;
+    height: 60%;
+    width: 50%;
     margin-left: 30px;
 }
 .nh:nth-child(3){
@@ -73,7 +72,7 @@ header{/*en-tête*/
 
 }
 .ni a{
-    font-weight: 800;
+    font-weight: bold;
     border: transparent;
 }
 .i:hover{
@@ -105,7 +104,7 @@ header{/*en-tête*/
 }
 .annonce h1{
     width: 90%;
-    font-weight: 800;
+    font-weight: bold;
     font-size: 2em;
     margin-bottom: 20px;
 }
@@ -142,7 +141,7 @@ header{/*en-tête*/
     font-size: 1.5em;
 }
 .formulaire input::placeholder{
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 .b_recherche{
     width: 10%;
@@ -203,7 +202,7 @@ header{/*en-tête*/
 }
 #crit p{
     font-size: 1.8em;
-    font-weight: 800 ;
+    font-weight: bold ;
 }
 #f{/*contour global de chaques critères*/
     height: 54px;
@@ -283,7 +282,6 @@ header{/*en-tête*/
     font-size: 2.8em;
     margin-top: 0px;
     margin-left: 30px;
-    font-weight: 800;
 }
 .arrow{
     height: auto;
@@ -340,7 +338,6 @@ header{/*en-tête*/
     font-size: 2em;
     margin-top: 15px;
     margin-left: 30px;
-    font-weight: bold;
 }
 .note_p2 p{
     height: auto;
@@ -379,7 +376,6 @@ header{/*en-tête*/
     font-size: 2.8em;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-weight: 800;
     margin-left: 30px;
 
 }
@@ -412,7 +408,6 @@ header{/*en-tête*/
     font-size: 2em;
     margin-bottom: 0px;
     margin-left: 30px;
-    font-weight: 800;
     margin-top: 20px;
 
 }
@@ -521,7 +516,6 @@ header{/*en-tête*/
 .t_a h4{
     font-size: 2em;
     margin-left: 30px;
-    font-weight: 800;
     padding-left: 0px;
 }
 
@@ -596,7 +590,6 @@ footer ul{
 }
 footer h4{
     font-size: 2em;
-    font-weight: 800;
     margin-top: 80px;
     margin-bottom: 20px;
 }

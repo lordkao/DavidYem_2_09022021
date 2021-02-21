@@ -27,8 +27,7 @@ header{/*en-tête*/
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.1em;
-    font-weight:600;
+    font-size: 1em;
     border-bottom: 5px #f2f2f2 solid;
 
 }
@@ -79,7 +78,7 @@ header{/*en-tête*/
 
 }
 .ni a{
-    font-weight: 800;
+    font-weight: bold;
     border: transparent;
 }
 .i:hover{
@@ -106,12 +105,12 @@ header{/*en-tête*/
 }
 .annonce p{
     width: auto;
-    font-size: 0.9em;
-
+    font-size: 1em;
+    margin-top: 20px;
 }
 .annonce h1{
     width: 90%;
-    font-weight: 800;
+    font-weight: bold;
     font-size: 1.3em;
     
 }
@@ -175,7 +174,7 @@ header{/*en-tête*/
 }
 .fi{
     font-size: 1.1em;
-    font-weight: 800;
+    font-weight: bold;
     width: auto;
     height: auto;
     display: flex;
@@ -207,7 +206,6 @@ header{/*en-tête*/
 }
 #crit p{
     font-size: 1em;
-    font-weight: 800 ;
 }
 #f{/*contour global de chaques critères*/
     height: 54px;
@@ -283,7 +281,6 @@ header{/*en-tête*/
     width: auto;
     font-size: 1.4em;
     margin-top: 0px;
-    font-weight: 800;
     margin-left: 20px;
 }
 .arrow{
@@ -340,7 +337,6 @@ header{/*en-tête*/
     font-size: 1em;
     margin-left: 20px;
     margin-top: 15px;
-    font-weight: bold;
 }
 .note_p2 p{
     height: auto;
@@ -378,7 +374,6 @@ header{/*en-tête*/
     font-size: 1.4em;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-weight: 800;
 }
 
 
@@ -409,7 +404,6 @@ header{/*en-tête*/
     height: auto;
     font-size: 1em;
     margin-bottom: 0px;
-    font-weight: 800;
     margin-top: 10px;
 }
 .note_p1 p{
@@ -445,7 +439,6 @@ header{/*en-tête*/
 .plus h2{
     
     font-size: 1.2em;
-    font-weight: 800;
     margin-bottom: 0px;
 }
 
@@ -463,7 +456,6 @@ header{/*en-tête*/
 }
 #activités{
     font-size: 1.4em;
-    font-weight: 800;
     padding-left: 0px;
     margin-bottom: 30px;
 }
@@ -507,7 +499,6 @@ header{/*en-tête*/
 }
 .t_a h4{
     font-size: 1em;
-    font-weight: 800;
     padding-left: 20px;
 }
 
@@ -578,7 +569,6 @@ footer ul{
     margin-bottom: 0px;
 }
 footer h4{
-    font-weight: 800;
     margin-top: 50px;
 
 }

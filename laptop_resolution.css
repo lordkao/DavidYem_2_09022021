@@ -9,7 +9,7 @@ header{
 }
 .top_header a{
     width: 100%;
-    font-size: 0.9em;
+    font-size: 0.8em;
 
 }
 .logo_reservia{
@@ -108,7 +108,7 @@ header{
 
 }
 .fi{
-    font-size: 1.2em;
+    font-size: 1em;
     padding-left: 5px;
     margin-right: 10px;
 
@@ -210,15 +210,15 @@ header{
     padding-left: 10px;
 }
 .note_p1 h2{
-    font-size: 0.9em ;
+    font-size: 0.8em ;
     margin-top: 7px;
 }
 .note_p1 p{
-    font-size: 0.7em;
+    font-size: 0.6em;
     margin-top: 3px;
 }
 .note_p1 i{
-    font-size: 0.6em;
+    font-size: 0.5em;
     color: #f2f2f2;
     margin-top: 0px;
 
@@ -233,7 +233,7 @@ header{
 
 }
 .plus h2{
-    font-size: 1.2em;
+    font-size: 1em;
     margin-bottom: 0px;
 }
 /*fin bloc hébergements*/
@@ -249,7 +249,7 @@ header{
 .top_aside{
     height: 12%;
     width: 100%;
-
+    margin-bottom: 10px;
 }
 
 .t_pop h1{
@@ -288,12 +288,12 @@ header{
 .note_p2 h2{
     width: 85%;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin-top: 10px;
     margin-bottom: 5px;
 }
 .note_p2 p{
-    font-size: 0.7em;
+    font-size: 0.6em;
     margin-bottom: 40px;
 
 }
@@ -305,7 +305,7 @@ header{
 
 }
 .note_p2 i{
-    font-size: 0.6em;
+    font-size: 0.5em;
 
 }/*fin bloc aside populaire*/
 
@@ -321,7 +321,7 @@ header{
     margin-top: 60px;
 }
 .t_bot_section h1{
-    font-size: 1.1em;
+    font-size: 1em;
 }
 .t_bot_section{
     width: auto;
@@ -377,7 +377,7 @@ header{
 }
 
 .t_a h4{
-    font-size: 1em;
+    font-size: 0.8em;
     
 }
 .cp_fort{
@@ -440,7 +440,7 @@ footer ul{
 
 }
 footer h4{
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: 800;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -448,5 +448,5 @@ footer h4{
 }
 footer li{
     margin-top: 10px;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
