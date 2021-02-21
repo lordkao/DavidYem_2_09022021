@@ -34,8 +34,8 @@ header{/*en-tête*/
 
 }
 .logo_reservia img{
-    height: 80%;
-    width: 60%;
+    height: 60%;
+    width: 50%;
     margin-left: 30px;
 }
 .nh:nth-child(3){
