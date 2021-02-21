@@ -31,6 +31,8 @@ header{/*en-tête*/
     flex: none;
     order: 1;
 
+
+
 }
 .logo_reservia img{
     height: 50%;
@@ -101,7 +103,7 @@ header{/*en-tête*/
 }
 .annonce h1{
     width: 90%;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 
