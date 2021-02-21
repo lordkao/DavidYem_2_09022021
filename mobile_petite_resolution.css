@@ -27,7 +27,7 @@ header{/*en-tête*/
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.1em;
+    font-size: 1em;
     border-bottom: 5px #f2f2f2 solid;
 
 }
@@ -105,8 +105,8 @@ header{/*en-tête*/
 }
 .annonce p{
     width: auto;
-    font-size: 0.9em;
-
+    font-size: 1em;
+    margin-top: 20px;
 }
 .annonce h1{
     width: 90%;
