@@ -187,10 +187,10 @@ header{/*en-tête*/
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-#circle{
+.circle{
     height: 56px;
     width: 54px;
-    font-size: 1.8em;
+    font-size: 1.5em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,11 +200,11 @@ header{/*en-tête*/
     right: 2px;
     
 }
-#crit p{
-    font-size: 1.8em;
+.crit p{
+    font-size: 1.5em;
     font-weight: bold ;
 }
-#f{/*contour global de chaques critères*/
+.f{/*contour global de chaques critères*/
     height: 54px;
     display: flex;
     justify-content: start;
@@ -418,15 +418,12 @@ header{/*en-tête*/
     margin-left: 30px;
 
 }
-.note_p1 i{
-    font-size: 1.4em;
-    color: #f2f2f2;
-    margin-top: 20px;
-    margin-right: 3px;
-}
 .etoiles_heb{
+    font-size: 1.4em;
+    margin-top: 20px;
     margin-left: 30px;
 }
+
 .photo_p1_large{
     display: none;
 }

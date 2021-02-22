@@ -183,7 +183,7 @@ header{/*en-tête*/
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-#circle{
+.circle{
     height: 56px;
     width: 54px;
     font-size: 1.1em;
@@ -196,10 +196,10 @@ header{/*en-tête*/
     right: 2px;
     
 }
-#crit p{
+.crit p{
     font-size: 1em;
 }
-#f{/*contour global de chaques critères*/
+.f{/*contour global de chaques critères*/
     height: 54px;
     display: flex;
     justify-content: start;
@@ -412,15 +412,12 @@ header{/*en-tête*/
     margin-left: 30px;
 
 }
-.note_p1 i{
-    font-size: 1em;
-    color: #f2f2f2;
-    margin-top: 10px;
-    margin-right: 3px;
-}
 .etoiles_heb{
+    font-size: 1em;
+    margin-top: 10px;
     margin-left: 30px;
 }
+
 .photo_p1_large{
     display: none;
 }
