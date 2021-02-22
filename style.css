@@ -438,11 +438,11 @@ header{
 }
 .etoiles_heb{
     display: flex;
-    font-size: 0.8em;
     color: #f2f2f2;
     margin-top: 10px;
 }
-.etoiles_heb i{
+.etoiles_heb div i{
+    font-size: 0.8em;
     margin-right: 1px;
 }
 .b_star{
@@ -580,11 +580,13 @@ header{
     display: flex;
     justify-content: left;
     margin-bottom: 20px;
-}
-.note_p2 i{
-    font-size: 0.8em;
     color: #f2f2f2;
-}/*fin bloc aside populaire*/
+}
+.etoiles_aside div i{
+    font-size: 0.8em;
+    margin-right: 1px;
+}
+/*fin bloc aside populaire*/
 
 
 .bot_section{/* bloc section activités*/

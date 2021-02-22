@@ -341,13 +341,11 @@ header{/*en-tête*/
     margin-bottom: 60px;
     margin-left: 30px;
 }
-.note_p2 i{
-    font-size: 1em;
-    margin-right: 3px;
-
-}
 .etoiles_aside {
     margin-left: 30px;
+}
+.etoiles_aside div i{
+    font-size: 1em;
 }
 
 
@@ -417,6 +415,10 @@ header{/*en-tête*/
     margin-top: 10px;
     margin-left: 30px;
 }
+.etoiles_heb div i{
+    font-size: 1em;
+}
+
 
 .photo_p1_large{
     display: none;

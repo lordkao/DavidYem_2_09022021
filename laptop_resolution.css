@@ -218,8 +218,10 @@ header{
     margin-top: 3px;
 }
 .etoiles_heb{
-    font-size: 0.5em;
     margin-top: 10px;
+}
+.etoiles_heb div i{
+    font-size: 0.5em;
 }
 
 .€{
@@ -295,16 +297,17 @@ header{
     margin-bottom: 40px;
 
 }
-.etoiles_aside{
-    height: auto;
-    width: auto;
-    display: flex;
-    justify-content: left;
-
-}
 .note_p2 i{
     font-size: 0.5em;
 
+}
+
+.etoiles_aside{
+    margin-bottom: 20px;
+}
+.etoiles_aside div i{
+    font-size: 0.5em;
+    margin-right: 1px;
 }/*fin bloc aside populaire*/
 
 
