@@ -250,7 +250,7 @@ header{/*en-tête*/
 }
 
 .top_s{/*section*/
-    width: auto; 
+    width: 100%; 
     height: auto;
     display: flex;
     flex-direction:column-reverse;
@@ -299,11 +299,10 @@ header{/*en-tête*/
     justify-content: center;
     align-items: center;
     padding: 25px 20px 35px 20px;
-   
 }
 .cadre_aside{
     height: 140px;
-    width: 100%;
+    width: 97%;
     border-radius: 20px 20px 20px 20px;
     margin-bottom: 10px;
 }
@@ -456,7 +455,7 @@ header{/*en-tête*/
 
 }
 .c_a{
-    width: auto;
+    width: 100%;
     height: 180px;
     margin-top: 0;
     margin-bottom: 20px;
@@ -471,7 +470,7 @@ header{/*en-tête*/
 }
 .g_p_small{
     display: block;
-    width:auto;
+    width: 100%;
     height: 75%;
     overflow: hidden;
 }
@@ -495,18 +494,34 @@ header{/*en-tête*/
 .p_p_small{
     display: block;
     height: 75%;
-    width: auto;
+    width: 100%;
     overflow: hidden;
 }
 .p_p_small img{
     height: 100%;
     width: 100%;
 }
+
+
+.cp_a{
+    height: 180px;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
 .p_fort_large{
     display: none;
 }
+.cp_fort{
+    height: 180px;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+
 .p_fort_small{
     display: block;
+    width: 100%;
     height: 75%;
     overflow: hidden;
 }
@@ -518,8 +533,16 @@ header{/*en-tête*/
 .p_frioul_large{
     display: none;
 }
+.cp_frioul{
+    height: 180px;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+
 .p_frioul_small{
     display: block;
+    width: 100%;
     height: 75%;
     overflow: hidden;
     
@@ -527,27 +550,6 @@ header{/*en-tête*/
 .p_frioul_small img{
     height: 100%;
     width: 100%;
-}
-.cp_a{
-    width: auto;
-    height: 180px;
-    margin-top: 0%;
-    margin-bottom: 20px;
-    border-radius: 20px 20px 20px 20px;
-}
-.cp_fort{
-    width: auto;
-    height: 180px;
-    margin-top: 0%;
-    margin-bottom: 20px;
-    border-radius: 20px 20px 20px 20px;
-}
-.cp_frioul{
-    width: auto;
-    height: 180px;
-    margin-top: 0%;
-    margin-bottom: 20px;
-    border-radius: 20px 20px 20px 20px;
 }
 
 
