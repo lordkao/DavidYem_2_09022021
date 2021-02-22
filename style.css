@@ -280,7 +280,7 @@ header{
 .critères a:hover{
     font-size: 1.1em;
 }
-#circle{
+.circle{
     height: 64px;
     width: 64px;
     font-size: 1.5em;
@@ -293,16 +293,16 @@ header{
     right: 3px;
     
 }
-#circle i{
+.circle i{
     color:#0065FC;
 }
-#crit p{
+.crit p{
     font-size: 1em;
     font-weight: bold;
     padding-left: 10px;
     padding-right: 20px;
 }
-#f{/*contour global de chaques critères*/
+.f{/*contour global de chaques critères*/
     height: 100%;
     width: auto;
     display: flex;
@@ -436,15 +436,16 @@ header{
     font-size: 0.9em;
     margin-top: 10px;
 }
-.note_p1 i{
-    font-size: 0.8em;
+.etoiles_heb{
+    display: flex;
     color: #f2f2f2;
     margin-top: 10px;
 }
-.etoiles_heb{
-
+.etoiles_heb div i{
+    font-size: 0.8em;
+    margin-right: 1px;
 }
-#b_star{
+.b_star{
     color: #0065FC;
 }
 
@@ -579,11 +580,13 @@ header{
     display: flex;
     justify-content: left;
     margin-bottom: 20px;
-}
-.note_p2 i{
-    font-size: 0.8em;
     color: #f2f2f2;
-}/*fin bloc aside populaire*/
+}
+.etoiles_aside div i{
+    font-size: 0.8em;
+    margin-right: 1px;
+}
+/*fin bloc aside populaire*/
 
 
 .bot_section{/* bloc section activités*/

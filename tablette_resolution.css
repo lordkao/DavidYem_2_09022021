@@ -187,10 +187,10 @@ header{/*en-tête*/
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-#circle{
+.circle{
     height: 56px;
     width: 54px;
-    font-size: 1.8em;
+    font-size: 1.5em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,11 +200,11 @@ header{/*en-tête*/
     right: 2px;
     
 }
-#crit p{
-    font-size: 1.8em;
+.crit p{
+    font-size: 1.5em;
     font-weight: bold ;
 }
-#f{/*contour global de chaques critères*/
+.f{/*contour global de chaques critères*/
     height: 54px;
     display: flex;
     justify-content: start;
@@ -347,13 +347,11 @@ header{/*en-tête*/
     margin-left: 30px;
 
 }
-.note_p2 i{
-    font-size: 1.4em;
-    margin-right: 3px;
-
-}
 .etoiles_aside {
     margin-left: 30px;
+}
+.etoiles_aside div i{
+    font-size: 1.4em;
 }
 
 
@@ -418,15 +416,15 @@ header{/*en-tête*/
     margin-left: 30px;
 
 }
-.note_p1 i{
-    font-size: 1.4em;
-    color: #f2f2f2;
-    margin-top: 20px;
-    margin-right: 3px;
-}
 .etoiles_heb{
+    margin-top: 20px;
     margin-left: 30px;
 }
+.etoiles_heb div i{
+    font-size: 1.4em;
+   
+}
+
 .photo_p1_large{
     display: none;
 }
@@ -560,15 +558,27 @@ header{/*en-tête*/
     height: 100%;
     width: 100%;
 }
-#bot_r{
+.cp_a{
     width: 100%;
     height: 400px;
     margin-top: 0%;
     margin-bottom: 30px;
     border-radius: 30px 30px 30px 30px;
-
 }
-
+.cp_fort{
+    width: 100%;
+    height: 400px;
+    margin-top: 0%;
+    margin-bottom: 30px;
+    border-radius: 30px 30px 30px 30px;
+}
+.cp_frioul{
+    width: 100%;
+    height: 400px;
+    margin-top: 0%;
+    margin-bottom: 30px;
+    border-radius: 30px 30px 30px 30px;
+}
 
 footer{/*Pied de page*/
     width: auto;
