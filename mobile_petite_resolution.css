@@ -528,7 +528,21 @@ header{/*en-tête*/
     height: 100%;
     width: 100%;
 }
-#bot_r{
+.cp_a{
+    width: auto;
+    height: 180px;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+.cp_fort{
+    width: auto;
+    height: 180px;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+.cp_frioul{
     width: auto;
     height: 180px;
     margin-top: 0%;

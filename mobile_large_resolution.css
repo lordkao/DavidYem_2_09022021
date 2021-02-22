@@ -550,7 +550,21 @@ header{/*en-tête*/
     height: 100%;
     width: 100%;
 }
-#bot_r{
+.cp_a{
+    width: 100%;
+    height: 280px;
+    margin-top: 0%;
+    margin-bottom: 30px;
+    border-radius: 30px 30px 30px 30px;
+}
+.cp_frioul{
+    width: 100%;
+    height: 280px;
+    margin-top: 0%;
+    margin-bottom: 30px;
+    border-radius: 30px 30px 30px 30px;
+}
+.cp_fort{
     width: 100%;
     height: 280px;
     margin-top: 0%;
