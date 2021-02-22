@@ -377,7 +377,7 @@ header{
     align-items: center;
     padding-left: 50px;
 }
-.t_heb h1{
+.t_heb h2{
     margin-top: 40px;
     font-size: 1.4em;
     font-weight: bold;
@@ -497,7 +497,7 @@ header{
     align-items: center;
 }
 
-.t_pop h1{
+.t_pop h2{
     font-weight: bold;
     font-size: 1.4em;
     margin-top: 40px;
@@ -606,7 +606,7 @@ header{
     display: flex;
     align-items: center;
 }
-.t_bot_section h1{
+.t_bot_section h2{
     font-size: 1.4em;
     font-weight: bold;
 }

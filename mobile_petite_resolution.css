@@ -276,7 +276,7 @@ header{/*en-tête*/
     padding-top: 40px;
     
 }
-.t_pop h1{
+.t_pop h2{
     height: auto;
     width: auto;
     font-size: 1.4em;
@@ -364,7 +364,7 @@ header{/*en-tête*/
     padding: 0px;
     margin-bottom: 20px;
 }
-.t_heb h1{
+.t_heb h2{
     font-size: 1.4em;
     margin-top: 0px;
     margin-bottom: 0px;

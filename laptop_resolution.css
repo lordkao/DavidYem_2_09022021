@@ -185,7 +185,7 @@ header{
     padding-left: 0px;
 
 }
-.t_heb h1{
+.t_heb h2{
     margin-top: 30px;
     font-size: 1em;
 
@@ -252,7 +252,7 @@ header{
     margin-bottom: 10px;
 }
 
-.t_pop h1{
+.t_pop h2{
     height: 100%;
     font-size: 1em;
     margin-top: 30px;
@@ -321,7 +321,7 @@ header{
     margin-right: 2%;
     margin-top: 60px;
 }
-.t_bot_section h1{
+.t_bot_section h2{
     font-size: 1em;
 }
 .t_bot_section{
