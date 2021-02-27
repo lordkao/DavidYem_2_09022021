@@ -228,14 +228,11 @@ header{/*en-tête*/
     border: 2px #f2f2f2 solid;
     border-radius: 15px 15px 15px 15px;
     margin-right: 10px;
-    position: relative;
-    bottom: 10px;
 }
 .info p{
     height: auto;
     width: auto;
     display: flex;
-    justify-content: baseline;
     align-items: center;
     font-size: 1.1em;
     margin: 0px 0px 0px 10px;
@@ -267,7 +264,7 @@ header{/*en-tête*/
     padding-top: 30px;
     padding-bottom: 0px;
 }
-.t_pop h1{
+.t_pop h2{
     height: 100%;
     width: auto;
     font-size: 1.5em;
@@ -361,7 +358,7 @@ header{/*en-tête*/
     padding: 0px;
     margin-bottom: 30px;
 }
-.t_heb h1{
+.t_heb h2{
     font-size: 1.5em;
     margin-top: 0px;
     margin-bottom: 0px;
