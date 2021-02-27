@@ -1,6 +1,6 @@
 
 body{
-    color: black(0, 0, 0);
+    color: black;
 }
 
 
@@ -236,14 +236,11 @@ header{/*en-tête*/
     border: 2px #f2f2f2 solid;
     border-radius: 15px 15px 15px 15px;
     margin-right: 10px;
-    position: relative;
-    bottom: 10px;
 }
 .info p{
     height: auto;
     width: auto;
     display: flex;
-    justify-content: baseline;
     align-items: center;
     font-size: 1.1em;
     margin: 0px 0px 0px 10px;
