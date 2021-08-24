@@ -1,7 +1,98 @@
+/********************Général********************/
+
 html{
     font-size: 62.5%;
 }
-body{
+body,header,section,footer,h1,h2,h3,h4,p{
     margin: 0;
     padding: 0;
+}
+@font-face {
+    font-family: "Raleway-Black";
+    src: url("./Raleway-Black.ttf");
+}
+@font-face {
+    font-family: "Raleway-Thin";
+    src: url("./Raleway-Thin.ttf");
+}
+body{
+    font-family: "Raleway-Thin",Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+/********************Contenu principal********************/
+
+.bloc-page{
+    height: 100vh;
+    display: grid;
+    grid-template: auto 1fr 150px / 1fr;
+}
+
+/********************Header********************/
+header{
+    display: grid;
+    grid-template: 120px 1fr / 1fr;
+}
+/********************Navigation********************/
+
+header nav{
+    display: grid;
+    grid-template: repeat(2,1fr) / repeat(2,1fr);
+    order: 0;
+}
+.logo img{
+    width: 60%;
+    padding: 15px;
+}
+.nav-signup{
+    padding: 15px;
+}
+.nav-signup a{
+    font-family:"Raleway-Black","Raleway-Thin",Georgia, 'Times New Roman', Times, serif;
+    justify-content: flex-end;
+    color: #0065FC;
+}
+.nav-lodging,.nav-activities{
+    border-bottom: 3px #f2f2f2 solid;
+}
+.nav-lodging a:hover,.nav-activities a:hover{
+    color: #0065FC;
+    border-bottom: 3px #0065FC solid;
+}
+
+/********************Section********************/
+
+.criteria{
+    display: grid;
+    grid-template: repeat(4,auto) / 1fr;
+    order: 1;
+}
+.quote1 h1,p{
+    padding: 10px 15px;
+}
+.quote1 h1{
+    font-size: 1.8rem;
+    font-family: "Raleway-Black",Georgia, 'Times New Roman', Times, serif;
+}
+
+/********************Section********************/
+
+section{
+    background-color: rgb(252, 195, 173);
+}
+
+/********************footer********************/
+
+footer{
+    background-color: rgb(253, 223, 213);
 }
