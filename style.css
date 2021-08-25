@@ -117,6 +117,9 @@ header nav{
     color: white;
     background-color: #0065FC;
 }
+.search:hover{
+    cursor: pointer;
+}
 .search-bar input{
     font-weight: bold;
     border: none;
@@ -155,6 +158,10 @@ header nav{
     border: 2px #f2f2f2 solid;
     margin-top: 10px;
     margin: 10px 10px 0 0;
+    cursor: pointer;
+}
+.container-filters:hover{
+    transform: scale(1.1);
 }
 .icons-filters{
     height: 36px;
