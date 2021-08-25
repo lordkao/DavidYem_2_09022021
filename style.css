@@ -79,6 +79,9 @@ header nav{
     grid-template: repeat(4,auto) / 1fr;
     order: 1;
 }
+.quote1{
+    order: 0;
+}
 .quote1 h1,p{
     padding: 10px 15px 0 15px;
 }
@@ -89,6 +92,9 @@ header nav{
 
 /********************Search bar********************/
 
+.container-search{
+    order: 1;
+}
 .container-search,.search-bar,.map,.search{
     height: 100%;
     display: flex;
@@ -122,6 +128,50 @@ header nav{
     color: black;
 }
 
+/********************Filters********************/
+.filters{
+    display: grid;
+    order: 2;
+}
+.filters h2{
+    padding-left: 15px;
+    font-size: 1.6rem;
+    font-family: "Raleway-Black",Georgia, 'Times New Roman', Times, serif;
+}
+.all-filters{
+    font-family: "Raleway-Black",Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container-filters{
+    height: 34px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px #f2f2f2 solid;
+    margin-top: 10px;
+    margin: 10px 10px 0 0;
+}
+.icons-filters{
+    height: 36px;
+    width: 36px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    margin-left: -3px;
+}
+.filter-title{
+    margin: 0 10px 0 10px;
+}
+.quote2{
+    order: 3;
+}
 /********************Section********************/
 
 section{
