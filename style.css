@@ -75,14 +75,14 @@ header nav{
 
 .criteria{
     display: grid;
-    grid-gap: 40px;
     grid-template: repeat(4,auto) / 1fr;
     order: 1;
 }
 .quote1{
     order: 0;
+    margin-bottom: 30px;
 }
-.quote1 h1,p{
+.quote1 h1,.quote1 p{
     padding: 10px 15px 0 15px;
 }
 .quote1 h1{
@@ -132,6 +132,7 @@ header nav{
 .filters{
     display: grid;
     order: 2;
+    margin-top: 30px;
 }
 .filters h2{
     padding-left: 15px;
@@ -169,8 +170,32 @@ header nav{
 .filter-title{
     margin: 0 10px 0 10px;
 }
+
+/********************Quote2********************/
+
 .quote2{
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
     order: 3;
+    margin: 10px 0 30px 0;
+}
+.quote2 p {
+    padding: 0 10px 0 10px;
+}
+.icon-info{
+    height: 20px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    border: 2px #f2f2f2 solid;
+    color: #0065FC;
+}
+.icon-info i {
+    transform: scale(0.7);
 }
 /********************Section********************/
 
