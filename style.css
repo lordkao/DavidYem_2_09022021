@@ -150,7 +150,7 @@ header nav{
     flex-wrap: wrap;
 }
 .container-filters{
-    height: 34px;
+    height: 38px;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -164,9 +164,9 @@ header nav{
     transform: scale(1.1);
 }
 .icons-filters{
-    height: 36px;
-    width: 36px;
-    border-radius: 25px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
