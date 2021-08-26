@@ -429,7 +429,7 @@ section{
     padding: 5px 15px;
     font-size: 1.4rem;
 }
-/********************footer********************/
+/********************Footer********************/
 
 footer{
     order: 2;
@@ -451,6 +451,13 @@ footer h2{
 .list li{
     margin: 10px 0;
 }
+.footer-link{
+    display: inline-block;
+    width: 100%;
+}
+
+/********************Média queries********************/
+
 @media screen and (min-width:375px){
     header{
         grid-template: 130px 1fr / 1fr;
