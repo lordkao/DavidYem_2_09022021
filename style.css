@@ -557,3 +557,38 @@ footer h2{
         justify-content: space-between;
     }
 }
+@media screen and (min-width:1024px){/*desktop*/
+    header{
+        grid-template: repeat(2,auto) / 1fr;
+    }
+    header nav{
+        grid-template: 90px / 65% repeat(3,auto);
+        order: 0;
+    }
+    .logo img{
+        padding: 20px 30px;
+        width: 20%;
+    }
+    .nav-lodging{
+        padding-right: 15px;
+        order: 1;
+    }
+    .nav-activities{
+        padding-right: 15px;
+        order: 2;
+    }
+    .nav-signup{
+        padding: 0 50px 0 0;
+        order: 3;
+    }
+    .nav-signup a{
+        justify-content: center;
+    }
+    .nav-lodging,.nav-activities{
+        border-bottom:none;
+    }
+    .nav-lodging a:hover,.nav-activities a:hover{
+        border-bottom: none;
+        border-top: 3px #0065FC solid;
+    }
+}
