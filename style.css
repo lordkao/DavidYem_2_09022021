@@ -3,7 +3,7 @@
 html{
     font-size: 62.5%;
 }
-body,header,section,footer,h1,h2,h3,h4,p{
+body,header,section,footer,h1,h2,h3,h4,p,ul,li{
     margin: 0;
     padding: 0;
 }
@@ -26,7 +26,7 @@ a{
     text-decoration: none;
     color: black;
 }
-.nav-signup a,.quote1 h1,.search-bar input::placeholder,.filters h2,.all-filters,.popular-title,.popular-name,.lodging-title,.lodging-name,.more a,.activities-name{
+.nav-signup a,.quote1 h1,.search-bar input::placeholder,.filters h2,.all-filters,.popular-title,.popular-name,.lodging-title,.lodging-name,.more a,.activities-name,footer h2{
     font-family:"Raleway-ExtraBold","Raleway-Medium",Georgia, 'Times New Roman', Times, serif;
 }
 /********************Contenu principal********************/
@@ -34,7 +34,7 @@ a{
 .bloc-page{
     height: 100vh;
     display: grid;
-    grid-template: auto 1fr 150px / 1fr;
+    grid-template: repeat(3,auto) / 1fr;
 }
 
 /********************Header********************/
@@ -232,7 +232,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 0;
+    padding: 10px 0 25px 0;
     font-size: 1.8rem;
 }
 .popular-container{
@@ -305,7 +305,7 @@ section{
 .lodging-title{
     display: flex;
     align-items: center;
-    padding: 25px 0;
+    padding: 10px 0 25px 0;
     font-size: 1.8rem;
 }
 .lodging-container{
@@ -366,7 +366,7 @@ section{
 
 .activities{
     background-color: white;
-    padding: 20px 15px;
+    padding: 0 15px;
     order: 2;
 }
 .activities-title{
@@ -416,5 +416,21 @@ section{
 
 footer{
     order: 2;
-    background-color: rgb(253, 223, 213);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+footer h2{
+    margin-top: 20px;
+    font-size: 1.6rem;
+}
+.list{
+    margin: 10px 0;
+    list-style-type: none;
+}
+.list li{
+    margin: 10px 0;
 }
