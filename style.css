@@ -26,7 +26,9 @@ a{
     text-decoration: none;
     color: black;
 }
-
+.nav-signup a,.quote1 h1,.search-bar input::placeholder,.filters h2,.all-filters,.popular-title,.popular-name,.lodging-title,.lodging-name,.more a{
+    font-family:"Raleway-ExtraBold","Raleway-Medium",Georgia, 'Times New Roman', Times, serif;
+}
 /********************Contenu principal********************/
 
 .bloc-page{
@@ -61,7 +63,6 @@ header nav{
     padding: 15px;
 }
 .nav-signup a{
-    font-family:"Raleway-ExtraBold","Raleway-Medium",Georgia, 'Times New Roman', Times, serif;
     justify-content: flex-end;
     color: #0065FC;
 }
@@ -89,7 +90,6 @@ header nav{
 }
 .quote1 h1{
     font-size: 1.8rem;
-    font-family: "Raleway-ExtraBold",Georgia, 'Times New Roman', Times, serif;
 }
 
 /********************Search bar********************/
@@ -142,10 +142,8 @@ header nav{
 .filters h2{
     padding-left: 15px;
     font-size: 1.6rem;
-    font-family: "Raleway-ExtraBold",Georgia, 'Times New Roman', Times, serif;
 }
 .all-filters{
-    font-family: "Raleway-ExtraBold",Georgia, 'Times New Roman', Times, serif;
     padding: 15px;
     display: flex;
     align-items: center;
@@ -236,7 +234,6 @@ section{
     align-items: center;
     padding: 25px 0;
     font-size: 1.8rem;
-    font-family: "Raleway-ExtraBold",Georgia, 'Times New Roman', Times, serif;
 }
 .popular-container{
     display: grid;
@@ -278,7 +275,6 @@ section{
 .popular-name{
     padding: 5px 15px;
     font-size: 1.6rem;
-    font-family: "Raleway-ExtraBold",Georgia, 'Times New Roman', Times, serif;
 }
 .grey-star{
     color: #d1d1d1;
@@ -311,7 +307,6 @@ section{
     align-items: center;
     padding: 25px 0;
     font-size: 1.8rem;
-    font-family: "Raleway-ExtraBold",Georgia, 'Times New Roman', Times, serif;
 }
 .lodging-container{
     display: grid;
@@ -357,14 +352,12 @@ section{
 .lodging-name{
     padding: 5px 15px;
     font-size: 1.6rem;
-    font-family: "Raleway-ExtraBold",Georgia, 'Times New Roman', Times, serif;
 }
 .more{
     margin: 10px 0;
     display: inline-block;
 }
 .more a{
-    font-family: "Raleway-ExtraBold",Georgia, 'Times New Roman', Times, serif;
     font-size: 1.6rem;
     font-weight: bold;
 }
