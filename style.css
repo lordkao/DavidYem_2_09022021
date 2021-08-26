@@ -250,6 +250,10 @@ section{
     align-items: center;
     box-shadow: 0px 0px 10px 1px #dadada;
 }
+.popular-link{
+    width: 100%;
+    height: 100%;
+}
 .popular-img{
     width:35%;
     height: 100%;
@@ -334,6 +338,7 @@ section{
     object-fit: cover;
 }
 .description-block{
+    margin-top: 5px;
     width: 100%;
 }
 .lodging-description{
@@ -433,4 +438,64 @@ footer h2{
 }
 .list li{
     margin: 10px 0;
+}
+@media screen and (min-width:375px){
+    header{
+        grid-template: 130px 1fr / 1fr;
+    }
+    .popular-frame{
+        height: 140px;
+    }
+    .popular-img{
+        width: 40%;
+    }
+    .popular-description{
+        width: 60%;
+    }
+    .lodging-frame{
+        height: 190px;
+    }
+    .activities-frame{
+        height: 170px;
+    }
+}
+@media screen and (min-width:425px){
+    header{
+        grid-template: 140px 1fr / 1fr;
+    }
+    .popular-frame{
+        height: 170px;
+    }
+    .popular-img{
+        width: 40%;
+    }
+    .popular-description{
+        width: 60%;
+    }
+    .lodging-frame{
+        height: 220px;
+    }
+    .activities-frame{
+        height: 200px;
+    }
+}
+@media screen and (min-width:768px){
+    header{
+        grid-template: 200px 1fr / 1fr;
+    }
+    .popular-frame{
+        height: 170px;
+    }
+    .popular-img{
+        width: 40%;
+    }
+    .popular-description{
+        width: 60%;
+    }
+    .lodging-frame{
+        height: 220px;
+    }
+    .activities-frame{
+        height: 200px;
+    }
 }
