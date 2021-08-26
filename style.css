@@ -500,21 +500,58 @@ footer h2{
 }
 @media screen and (min-width:768px){
     header{
-        grid-template: 200px 1fr / 1fr;
+        grid-template: 180px 1fr / 1fr;
     }
-    .popular-frame{
-        height: 170px;
+    .logo img{
+        width: 50%;
     }
-    .popular-img{
-        width: 40%;
-    }
-    .popular-description{
+    .search-bar{
         width: 60%;
     }
+    .container-search{
+        margin-left: 15px;
+        justify-content: flex-start;
+    }
+    .popular{
+        padding: 20px 65px;
+    }
+    .popular-frame{
+        height: 200px;
+    }
+    .popular-img{
+        width: 50%;
+    }
+    .popular-description{
+        width: 50%;
+    }
+    .criteria{
+        padding-left: 50px;
+    }
+    .lodging{
+        padding: 20px 65px;
+    }
+    .activities{
+        padding: 20px 65px;
+    }
     .lodging-frame{
-        height: 220px;
+        height: 300px;
+    }
+    .lodging-img{
+        height: 70%;
+    }
+    .lodging-description{
+        height: 30%;
     }
     .activities-frame{
-        height: 200px;
+        height: 280px;
+    }
+    .activities-img{
+        height: 80%;
+    }
+    .activities-description{
+        height: 20%;
+    }
+    footer{
+        padding: 20px 65px;
     }
 }
