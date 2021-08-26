@@ -132,6 +132,10 @@ header nav{
 .search-bar input::placeholder{
     color: black;
 }
+.rechercher{
+    display: none;
+    color: white;
+}
 
 /********************Filters********************/
 .filters{
@@ -556,6 +560,22 @@ footer h2{
         flex-direction: row;
         justify-content: space-between;
     }
+    .search-bar{
+        width: 50%;
+    }
+    .search-bar input{
+        width: 50%;
+    }
+    .search{
+        border-radius: 0 13px 13px 0;
+        width: 35%;
+    }
+    .search i{
+        display: none;
+    }
+    .rechercher{
+        display: block;
+    }
 }
 @media screen and (min-width:1024px){/*desktop*/
     header{
@@ -590,5 +610,17 @@ footer h2{
     .nav-lodging a:hover,.nav-activities a:hover{
         border-bottom: none;
         border-top: 3px #0065FC solid;
+    }
+    .criteria{
+        padding-left: 15px;
+    }
+    .search-bar{
+        width: 35%;
+    }
+    .search-bar input{
+        width: 50%;
+    }
+    .search{
+        width: 35%;
     }
 }
