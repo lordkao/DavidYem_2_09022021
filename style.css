@@ -458,7 +458,7 @@ footer h2{
 
 /********************Média queries********************/
 
-@media screen and (min-width:375px){
+@media screen and (min-width:375px){/*medium mobile*/
     header{
         grid-template: 130px 1fr / 1fr;
     }
@@ -478,7 +478,7 @@ footer h2{
         height: 170px;
     }
 }
-@media screen and (min-width:425px){
+@media screen and (min-width:425px){/*large mobile*/
     header{
         grid-template: 140px 1fr / 1fr;
     }
@@ -498,7 +498,7 @@ footer h2{
         height: 200px;
     }
 }
-@media screen and (min-width:768px){
+@media screen and (min-width:768px){/*Tab*/
     header{
         grid-template: 180px 1fr / 1fr;
     }
@@ -553,5 +553,7 @@ footer h2{
     }
     footer{
         padding: 20px 65px;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
