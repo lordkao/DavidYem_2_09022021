@@ -422,7 +422,7 @@ section{
 .activities-description{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: white;
     width:100%;
@@ -780,16 +780,58 @@ footer h2{
     .activities{
         order: 2;
         grid-area: 2 / 1 / 3 / span 2;
-        padding: 20px 65px;
+        padding: 20px 0;
     }
-    
+    .activities-link{
+        justify-content: flex-start;
+    }
+    .activities-container{
+        display: grid;
+        grid-template: repeat(8,auto) / repeat(4,1fr);
+        grid-gap: 30px;
+        height: 350px;
+    }
     .activities-frame{
-        height: 280px;
+        height: 100%;
+        margin-bottom: 0;
+        position: relative;
     }
     .activities-img{
-        height: 80%;
+        height: 315px;
+        position: relative;
+    }
+    .activities-img img{
+        height: 100%;
+        position: absolute;
+        top: 0px;
     }
     .activities-description{
-        height: 20%;
+        height: 35px;
+        position: absolute;
+        bottom: 0;
+    }
+    .description-block{
+        margin-top: 0;
+    }
+    .activities-name{
+        padding: 0px 15px;
+    }
+    .port{
+        grid-area: 1 / 1 / 9 / 2;
+    }
+    .pomegues{
+        grid-area: 1 / 2 / 6 / 3;
+    }
+    .frioul{
+        grid-area: 6 / 2 / 9 / 3;
+    }
+    .calanques{
+        grid-area: 1 / 3 / 9 / 4;
+    }
+    .dame{
+        grid-area: 1 / 4 / 5 / 5;
+    }
+    .longchamp{
+        grid-area: 5 / 4 / 9 / 5;
     }
 }
