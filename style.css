@@ -834,4 +834,13 @@ footer h2{
     .longchamp{
         grid-area: 5 / 4 / 9 / 5;
     }
+
+    /********************Footer********************/
+
+    footer{
+        justify-content: unset;
+    }
+    footer div{
+        margin-right: 15%;
+    }
 }
